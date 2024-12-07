@@ -1,0 +1,787 @@
+[{
+  "_id": {
+    "$oid": "66d79da303972a1999df29c3"
+  },
+  "ocid": "ocds-hh5rsz-SAEM-IaaS",
+  "id": "ocds-hh5rsz-SAEM-IaaS.v55.award",
+  "date": "2024-09-02T17:41:23-05:00",
+  "tag": [
+    "award",
+    "awardUpdate"
+  ],
+  "initiationType": "tender",
+  "parties": [
+    {
+      "name": "Unidad de Administracion del Sistema Anticorrupcion del Estado de Morelos",
+      "id": "MX-RFC-Titular de area",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Titular de area",
+        "legalName": "saem",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "no reeleccion 7",
+        "locality": " Cuernavaca ",
+        "region": " Morelos ",
+        "postalCode": "62000",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "Priscila Hernandez Cruz",
+        "email": "contabilidad@saem.gob.mx",
+        "telephone": "7775262693",
+        "url": "https://saem.gob.mx",
+        "type": "contactPoint",
+        "givenName": "Priscila",
+        "patronymicName": "Hernandez",
+        "matronymicName": "Cruz"
+      },
+      "roles": [
+        "payer",
+        "contractingUnit"
+      ],
+      "position": "titular"
+    },
+    {
+      "name": "Hugo Nicanor Gonzalez Montiel",
+      "id": "MX-RFC-Proveedor",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Proveedor",
+        "legalName": "sinergy solutions S.A. de C.V",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "dakota 68",
+        "locality": " Cuernavaca ",
+        "region": " Morelos ",
+        "postalCode": "62000",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "hugo nicanor gonzalez montiel",
+        "email": "hgonzalez@sinergysolutions.com",
+        "telephone": "5524544312",
+        "url": "https://sinergysolutions.com.mx",
+        "type": "attorney",
+        "givenName": "hugo nicanor",
+        "patronymicName": "gonzalez",
+        "matronymicName": "montiel"
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "payee",
+        "issuingSupplier"
+      ],
+      "position": "Representante legal"
+    },
+    {
+      "name": "Sistema Anticorrupcion del Estado de Morelos",
+      "id": "MX-RFC-Representante legal",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Representante legal",
+        "legalName": "saem",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "no reeleccion 7",
+        "locality": " Cuernavaca ",
+        "region": " Morelos ",
+        "postalCode": "62000",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "Juan Carlos Huitron Luja",
+        "email": "juan.huitron@saem.gob.mx",
+        "telephone": "7775262693",
+        "url": "https://saem.gob.mx",
+        "type": "attorney",
+        "givenName": "Juan Carlos",
+        "patronymicName": "Huitron",
+        "matronymicName": "Luja"
+      },
+      "roles": [
+        "buyer"
+      ],
+      "position": "Representante legal"
+    },
+    {
+      "name": "luciano martinez I.",
+      "id": "MX-RFC-Proveedor",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Proveedor",
+        "legalName": "IT Services and Solutions, S.A, de C.V. ",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "montecito 38",
+        "locality": " Benito Juárez ",
+        "region": " Ciudad de México ",
+        "postalCode": "03810",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "Luciano Martinez I.",
+        "email": "luciano.martinez@it-solutions.com.mx",
+        "telephone": "5590002278",
+        "url": "https://it-solutions.com.mx",
+        "type": "attorney",
+        "givenName": "Luciano",
+        "patronymicName": "Martinez",
+        "matronymicName": "I."
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "issuingSupplier"
+      ],
+      "position": "Bussines Unit Manager"
+    },
+    {
+      "name": "David Peralta Sanchez",
+      "id": "MX-RFC-Proveedor",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Proveedor",
+        "legalName": "soultech S de R.L. de C.V.",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "lucerna 60",
+        "locality": " Cuauhtémoc ",
+        "region": " Ciudad de México ",
+        "postalCode": "06600",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "david peralta sanchez",
+        "email": "david.peralta@soultech.com.mx",
+        "telephone": "55338827",
+        "url": "https://soultech.com.mx",
+        "type": "attorney",
+        "givenName": "david",
+        "patronymicName": "peralta",
+        "matronymicName": "sanchez"
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "issuingSupplier"
+      ],
+      "position": "Representante legal"
+    },
+    {
+      "name": "Unidad de Servicios Tecnológicos ",
+      "id": "MX-RFC-Titular de area",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Titular de area",
+        "legalName": "saem",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "no reeleccion 7",
+        "locality": " Cuernavaca ",
+        "region": " Morelos ",
+        "postalCode": "62000",
+        "countryName": "Mexico"
+      },
+      "contactPoint": {
+        "name": "Vladimir Orihuela Hernandez",
+        "email": "vladimir.orihuela@saem.gob.mx",
+        "telephone": "7775262693",
+        "url": "https://saem.gob.mx",
+        "type": "contactPoint",
+        "givenName": "Vladimir",
+        "patronymicName": "Orihuela",
+        "matronymicName": "Hernandez"
+      },
+      "roles": [
+        "procuringEntity",
+        "requestingUnit",
+        "technicalUnit",
+        "responsibleUnit"
+      ],
+      "position": "Titular de la unidad de servicios tecnologicos"
+    }
+  ],
+  "planning": {
+    "rationale": "La ley general del sistema anticorrupción en su título cuarto correspondiente a la implementación de la Plataforma Digital Nacional y los sistemas de información que deberán integrarse y se encuentran definidos en el artículo 49 de la referida ley, por otro lado la Ley del Sistema Anticorrupción del Estado de Morelos define al sistema anticorrupción del Estado de Morelos como ente público integrador y encargado de la implementación de los sistemas para su uso por parte de las instituciones miembros del sistema anticorrupción en el Estado de Morelos y a razón de que el sistema local anticorrupción del Estado de Morelos no cuenta con infraestructura física para alojar e implementar dichos aplicativos es necesario la contratación de Infraestructura como Servicio con capacidad de procesamiento y almacenamiento necesario para soportar los ambientes de desarrollo y productivos de los sistemas correspondientes.",
+    "hasQuotes": true,
+    "documents": [
+      {
+        "id": "doc-edf47391-6cec-48ca-ac6a-4c843ad8028c",
+        "documentType": "marketStudies",
+        "title": "Implementacion de la Plataforma Digital del Estado de Morelos",
+        "description": "Derivado de la aprobación del plan de trabajo para la implementación de la Plataforma Digital del Estado de Morelos en la primer sesión ordinaria del 2022 se presenta el plan de proyecto que implica la contratación de Infraestructura de servidores de tipo virtual",
+        "url": "https://www.saem.gob.mx/actas/2022/extraordinarias/1a%20Extraordinaria%202022.pdf",
+        "datePublished": "2022-03-03T12:00:00-06:00",
+        "dateModified": "2022-03-03T12:00:00-06:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-0b607fb6-b4cd-4d3b-badd-a3c05231b6a2",
+        "documentType": "needsAssessment",
+        "title": "Plan de trabajo presentado al Comité Coordinador",
+        "description": "Plan de trabajo presentado al Comite Coordinador en la tercera sesion ordinaria del 2022",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=sharing",
+        "datePublished": "2022-07-04T03:57:27-05:00",
+        "dateModified": "2022-07-14T04:14:06-05:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-9adb1325-2ea7-46f9-93aa-83d2a90df1ba",
+        "documentType": "projectPlan",
+        "title": "Proyecto de implementacion de la Plataforna Digital del Estado de Morelos",
+        "description": "Documento de proyecto de implementación de la plataforma digital del estado de Morelos y estudio de mercado realizado para su contratación.",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=sh",
+        "datePublished": "2022-07-04T04:23:17-05:00",
+        "dateModified": "2022-07-04T04:29:46-05:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-8ebe7899-9851-4630-bf32-d437d9cb3e15",
+        "documentType": "procurementPlan",
+        "title": "Presentacion de plan de trabajo para la implemetacion de la plataforma digital del estado de morelos",
+        "description": "Plan de trabajo para la implementación de la plataforma digital del estado de morelos",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=shar",
+        "datePublished": "2022-07-04T04:16:58-05:00",
+        "dateModified": "2022-07-04T04:20:39-05:00",
+        "format": "pdf",
+        "language": "es"
+      }
+    ],
+    "requestsForQuotes": [
+      {
+        "id": "request-d7440bc8-7301-4cd7-8e2b-786b5e9093ae",
+        "title": "Soultech",
+        "description": "Proveedor de infraestructura como servicio de ORACLE",
+        "period": {
+          "startDate": "2022-04-12T05:25:07-05:00",
+          "endDate": "2022-04-12T05:26:22-05:00"
+        },
+        "items": [
+          {
+            "id": "32300001",
+            "quantity": 7,
+            "classification": {
+              "id": "32300001",
+              "description": "Arrendamiento de equipo de computo y bienes informaticos"
+            },
+            "unit": {
+              "name": "Servicio"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "David Peralta Sanchez",
+            "id": "MX-RFC-Proveedor"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-6879af2a-d5d9-4622-9c97-cb20dfa34e83",
+            "description": "proveedor de Infraestructura de computo en la nube",
+            "date": "2022-04-12T05:29:22-05:00",
+            "items": [
+              {
+                "id": "32300001",
+                "classification": {
+                  "id": "32300001",
+                  "description": "Arrendamiento de equipo de computo y bienes informaticos"
+                },
+                "unit": {
+                  "name": "Servicio",
+                  "value": {
+                    "amount": 149929
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 149929
+            },
+            "period": {
+              "startDate": "2022-04-12T05:27:02-05:00",
+              "endDate": "2022-04-12T05:31:24-05:00"
+            },
+            "issuingSupplier": {
+              "name": "David Peralta Sanchez",
+              "id": "MX-RFC-Proveedor"
+            }
+          }
+        ]
+      },
+      {
+        "id": "request-23d6b193-6b5b-4aaa-b482-b17571b0ef3d",
+        "title": "Sinergy solutions",
+        "description": "Proveedor de servicios de cómputo en la nube Oracle",
+        "period": {
+          "startDate": "2022-04-12T05:32:13-05:00",
+          "endDate": "2022-04-12T05:33:23-05:00"
+        },
+        "items": [
+          {
+            "id": "32300001",
+            "quantity": 7,
+            "classification": {
+              "id": "32300001",
+              "description": "Arrendamiento de equipo de computo y bienes informaticos"
+            },
+            "unit": {
+              "name": "Servicio"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "Hugo Nicanor Gonzalez Montiel",
+            "id": "MX-RFC-Proveedor"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-c6f1e28c-721a-4bd5-ba08-bc48bdb64dd4",
+            "description": "Cotización de infraestructura de computo en la nube de Oracle como servicio",
+            "date": "2022-04-12T05:34:50-05:00",
+            "items": [
+              {
+                "id": "32300001",
+                "classification": {
+                  "id": "32300001",
+                  "description": "Arrendamiento de equipo de computo y bienes informaticos"
+                },
+                "unit": {
+                  "name": "Servicio",
+                  "value": {
+                    "amount": 149918
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 149918
+            },
+            "period": {
+              "startDate": "2022-04-12T05:34:07-05:00",
+              "endDate": "2022-04-12T05:36:38-05:00"
+            },
+            "issuingSupplier": {
+              "name": "Hugo Nicanor Gonzalez Montiel",
+              "id": "MX-RFC-Proveedor"
+            }
+          }
+        ]
+      },
+      {
+        "id": "request-d133dfc9-adca-439f-b3ba-4bca1cd936dd",
+        "title": "It Solutions",
+        "description": "Cotización a la empresa It solutions de infraestructura de computo en la nube como servicio Oracle",
+        "period": {
+          "startDate": "2022-04-08T05:17:48-05:00",
+          "endDate": "2022-04-08T05:18:52-05:00"
+        },
+        "items": [
+          {
+            "id": "32300001",
+            "quantity": 7,
+            "classification": {
+              "id": "32300001",
+              "description": "Arrendamiento de equipo de computo y bienes informaticos"
+            },
+            "unit": {
+              "name": "Servicio"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "luciano martinez I.",
+            "id": "MX-RFC-Proveedor"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-7bc80bdd-d083-499a-ada6-7bc19c8e533a",
+            "description": "Cotización de infraestructura de computo en la nube de Oracle",
+            "date": "2022-04-12T05:38:13-05:00",
+            "items": [
+              {
+                "id": "32300001",
+                "classification": {
+                  "id": "32300001",
+                  "description": "Arrendamiento de equipo de computo y bienes informaticos"
+                },
+                "unit": {
+                  "name": "Servicio",
+                  "value": {
+                    "amount": 166587.6
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 166587.6
+            },
+            "period": {
+              "startDate": "2022-04-08T05:37:46-05:00",
+              "endDate": "2022-04-08T05:39:09-05:00"
+            },
+            "issuingSupplier": {
+              "name": "luciano martinez I.",
+              "id": "MX-RFC-Proveedor"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "tender": {
+    "id": "SAEM-IaaS",
+    "title": "Infraestructura como servicio.",
+    "description": "Contratar servicios de infraestructura de cómputo para soportar la implementación de los aplicativos delineados en el artículo 49 de la Ley General del Sistema Nacional Anticorrupción para  el Sistema Anticorrupción del Estado de Morelos y los que determine el Comité Coordinador.",
+    "status": "complete",
+    "procuringEntity": {
+      "name": "Unidad de Servicios Tecnológicos ",
+      "id": "MX-RFC-Titular de area"
+    },
+    "items": [
+      {
+        "id": "item-21fc9f5e-6c5d-4cf6-b60f-adf7e98ce9c3",
+        "description": "Infraestructura de computo en la nube como servicio",
+        "classification": {
+          "scheme": "COG",
+          "id": "32300001",
+          "description": "Arrendamiento de equipo de computo y bienes informaticos"
+        },
+        "quantity": 1,
+        "unit": {
+          "name": "Servicio",
+          "value": {
+            "amount": 149918,
+            "netAmount": 129240,
+            "currency": "MXN"
+          }
+        },
+        "deliveryLocation": {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -99.234995,
+              18.922644
+            ]
+          }
+        },
+        "deliveryAddress": {
+          "streetAddress": "Calle Jardín Juárez 7",
+          "locality": "Cuernavaca",
+          "region": "Morelos",
+          "postalCode": "62000",
+          "countryName": "México"
+        }
+      }
+    ],
+    "value": {
+      "amount": 170000,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 120000,
+      "currency": "MXN"
+    },
+    "procurementMethod": "selective",
+    "procurementMethodDetails": "Invitación a cuando menos tres personas",
+    "procurementMethodRationale": "Derivado de los montos y análisis del estudio de mercado realizado",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goodsLease"
+    ],
+    "awardCriteria": "bestValueToGovernment",
+    "awardCriteriaDetails": "costo y cumplimiento cabal de los requerimientos técnicos solicitados",
+    "submissionMethod": [
+      "electronicSubmission"
+    ],
+    "submissionMethodDetails": "correo electronico",
+    "tenderPeriod": {
+      "startDate": "2022-03-01T11:49:17-06:00",
+      "endDate": "2022-05-15T11:49:17-05:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2022-05-16T13:57:25-05:00",
+      "endDate": "2022-06-15T13:57:25-05:00"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "costo y cumplimiento de los requerimientos técnicos por parte de la infraestructura propuesta. ",
+    "awardPeriod": {
+      "startDate": "2022-06-01T11:49:17-05:00",
+      "endDate": "2022-07-31T11:49:17-05:00"
+    },
+    "numberOfTenderers": 3,
+    "tenderers": [
+      {
+        "name": "David Peralta Sanchez",
+        "id": "MX-RFC-Proveedor"
+      },
+      {
+        "name": "luciano martinez I.",
+        "id": "MX-RFC-Proveedor"
+      },
+      {
+        "name": "Hugo Nicanor Gonzalez Montiel",
+        "id": "MX-RFC-Proveedor"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-fa72f31e-ddf2-4eb4-9220-ffd8457adb0c",
+        "documentType": "technicalSpecifications",
+        "title": "Documento de proyecto y estudio de mercado",
+        "description": "Documento de proyecto y estudio de mercado",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=sharing",
+        "datePublished": "2022-07-04T04:37:05-05:00",
+        "dateModified": "2022-07-04T04:40:20-05:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-d3982741-1a8b-4b62-adf6-f101d5526a4b",
+        "documentType": "evaluationCriteria",
+        "title": "Evaluación de propuestas",
+        "description": "Estudio de mercado para determinar la mejor propuesta",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=sharing",
+        "datePublished": "2022-07-04T01:26:51-05:00",
+        "dateModified": "2022-07-04T01:52:08-05:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-e3c93da4-d3f5-4989-9220-11c86cf37652",
+        "documentType": "clarifications",
+        "title": "aclaraciones de requerimientos",
+        "description": "No se presentaron aclaraciones sobre los requerimientos",
+        "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=sharing",
+        "datePublished": "2022-07-04T04:11:38-05:00",
+        "dateModified": "2022-07-04T04:13:30-05:00",
+        "format": "pdf",
+        "language": "es"
+      },
+      {
+        "id": "doc-ff7a6523-94c6-4b38-ad08-8ce843625eb9",
+        "documentType": "tenderNotice",
+        "title": "Plan de trabajo para la implementacion de la Plataforma Digital del Estado de Morelos",
+        "description": "Acta de sesión con el plan de trabajo para la implementación de la Plataforma Digital del Estado de Morelos con estudio de mercado y factibilidad apoyados con instituciones educativas.",
+        "url": "https://www.saem.gob.mx/actas/2022/ordinarias/3a%20ordinaria%202022.pdf",
+        "datePublished": "2022-07-04T04:51:35-05:00",
+        "dateModified": "2022-07-04T04:55:34-05:00",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "buyer": {
+    "name": "Sistema Anticorrupcion del Estado de Morelos",
+    "id": "MX-RFC-Representante legal"
+  },
+  "awards": [
+    {
+      "id": "SAEM-IaaS",
+      "title": "    Contratacion de Infrestructura de procesamiento de computo en la nube",
+      "description": "Se adjudica el contrato al proveedor que presentó la mejor propuesta economica y tecnica",
+      "status": "active",
+      "date": "2022-07-27T00:00:00-05:00",
+      "value": {
+        "netAmount": 129240,
+        "amount": 149918,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "name": "Hugo Nicanor Gonzalez Montiel",
+          "id": "MX-RFC-Proveedor"
+        }
+      ],
+      "contractPeriod": {
+        "startDate": "2022-07-04T00:00:00-05:00",
+        "endDate": "2023-08-08T00:00:00-05:00"
+      },
+      "documents": [
+        {
+          "id": "doc-5941ec0e-58d2-4698-acbc-3d3f07946628",
+          "documentType": "winningBid",
+          "title": "propuesta ganadora",
+          "description": "Se genera estudio de mercado con los costos de propuestas presentadas",
+          "url": "https://www.saem.gob.mx/actas/2022/ordinarias/3a%20ordinaria%202022.pdf",
+          "datePublished": "2022-08-16T12:03:50-05:00",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "doc-fd97c326-9a01-47c0-ab48-729ee8b49a72",
+          "documentType": "awardNotice",
+          "title": "presentacion de mejor propuesta",
+          "description": "Documento de estudio de mercado con la mejor propuesta",
+          "url": "https://drive.google.com/file/d/1n0YYpQN7NceHJp-uPFUCichssA2KOhvF/view?usp=drive_link",
+          "datePublished": "2022-07-04T05:12:25-05:00",
+          "dateModified": "2022-07-04T05:13:43-05:00",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "doc-9e2f1710-de7f-4c23-b07b-f54920a98e75",
+          "documentType": "awardNotice",
+          "title": "resultado de la adjudicacion",
+          "description": "Derivado de la adjudicación del contrato a la mejor propuesta se hace de conocimiento a la empresa ganadora",
+          "url": "https://drive.google.com/file/d/1nL58MBpcIonkFghESJmx1v0JiJPUN9yY/view?usp=sharing",
+          "datePublished": "2022-07-04T03:57:27-05:00",
+          "format": "pdf",
+          "language": "es"
+        }
+      ],
+      "rationale": "El proveedor presentó la mejor propuesta técnica y económica de acuerdo a la necesidad de la institución."
+    }
+  ],
+  "contracts": [
+    {
+      "id": "SAEM-IaaS",
+      "awardID": "SAEM-IaaS",
+      "title": " Contrato referente al servicio de de Oracle Cloud PUF",
+      "description": "generar el arrendamiento de infraestructura de procesamiento de cómputo como servicio Oracle",
+      "status": "active",
+      "period": {
+        "startDate": "2022-08-08T00:00:00-05:00",
+        "endDate": "2023-08-08T00:00:00-05:00"
+      },
+      "value": {
+        "netAmount": 129240,
+        "amount": 149918,
+        "currency": "MXN",
+        "exchangeRates": [
+          {
+            "currency": "MXN"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "item-de8e544c-14c3-4aa6-8a22-6eca785a7bb4",
+          "description": "Infraestructura de computo en la nube como servicio",
+          "classification": {
+            "scheme": "CUCOP",
+            "id": "32300001",
+            "description": "Arrendamiento de equipo de computo y bienes informaticos"
+          },
+          "quantity": 1,
+          "unit": {
+            "name": "Servicio",
+            "value": {
+              "amount": 149918,
+              "netAmount": 129918,
+              "currency": "MXN"
+            }
+          },
+          "deliveryLocation": {
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -99.234995,
+                18.922644
+              ]
+            }
+          },
+          "deliveryAddress": {
+            "streetAddress": "Calle Jardín Juárez 7",
+            "locality": "Cuernavaca",
+            "region": "Morelos",
+            "postalCode": "62000",
+            "countryName": "México"
+          }
+        }
+      ],
+      "dateSigned": "2022-07-27T00:00:00-05:00",
+      "documents": [
+        {
+          "id": "doc-83bd4a5a-95a1-48ae-b80f-921483676c9c",
+          "documentType": "contractSigned",
+          "title": "Contrato de prestación de servicios Oracle",
+          "description": "contrato referente al servicio de infraestructura como servicio de Oracle",
+          "url": "https://drive.google.com/file/d/1QJvMS-hQV5LPjS10qAzVhVKyQ-5WxJBM/view?usp=sharing",
+          "datePublished": "2022-07-27T05:16:12-05:00",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "doc-beca5c74-bbcf-45ce-ac0d-2bfe50b1434f",
+          "documentType": "contractAnnexe",
+          "title": "contrato de prestación de servicios",
+          "description": "contrato final",
+          "url": "https://drive.google.com/file/d/1QJvMS-hQV5LPjS10qAzVhVKyQ-5WxJBM/view?usp=sharing",
+          "datePublished": "2022-07-27T04:31:22-05:00",
+          "dateModified": "2022-07-27T04:33:13-05:00",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "doc-5885826e-3fb5-41fe-b59b-0456c1cde82f",
+          "documentType": "contractSigned",
+          "title": "Contrato de Infraestructura como servicios: \"Oracle Cloud Founded Allocation\"",
+          "description": "Contrato firmado de los servicios contratados",
+          "url": "https://drive.google.com/file/d/1QJvMS-hQV5LPjS10qAzVhVKyQ-5WxJBM/view?usp=sharing",
+          "datePublished": "2022-07-27T12:45:00-05:00",
+          "format": "pdf",
+          "language": "es"
+        }
+      ],
+      "implementation": {
+        "status": "ongoing",
+        "documents": [
+          {
+            "id": "doc-ab66f4cd-c041-4e35-a203-627773b209aa",
+            "documentType": "physicalReception",
+            "title": "conclusion para renovacion del contrato",
+            "description": "Derivado de la implementación de los aplicativos en la infraestructura contratada se requiere una renovación del contrato en los términos de la cláusula décima octava del contrato en 2023",
+            "url": "https://drive.google.com/file/d/1nAZoIR7uMTWnzwCWz11nYWUWgJMG866y/view?usp=sharing",
+            "datePublished": "2022-07-27T12:45:00-05:00",
+            "dateModified": "2024-09-02T16:38:11-05:00",
+            "format": "pdf",
+            "language": "es"
+          },
+          {
+            "id": "doc-f2d77973-6bfc-4a06-a2a0-3ba92e30e6d0",
+            "documentType": "physicalReception",
+            "title": "conclusión y renovacion de contrato",
+            "description": "Renovación de contrato de infraestructura como servicio para continuidad de las operaciones con Sinergy de acuerdo con la clausula decimo octava del contrato.",
+            "url": "https://drive.google.com/file/d/1nAZoIR7uMTWnzwCWz11nYWUWgJMG866y/view?usp=sharing",
+            "datePublished": "2023-08-15T09:00:36-05:00",
+            "dateModified": "2024-08-21T09:06:58-05:00",
+            "format": "pdf",
+            "language": "es"
+          }
+        ]
+      },
+      "surveillanceMechanisms": [
+        "internalControlUnit"
+      ]
+    }
+  ],
+  "relatedProcesses": [
+    {
+      "id": "2",
+      "relationship": [
+        "renewalProcess"
+      ],
+      "title": "Renovacion del servicio de infraestructura de computo en la nube Oracle",
+      "scheme": "ocid",
+      "identifier": "ocds-hh5rsz-2024-08-30_18:12:19.224162-06",
+      "uri": "http://contratacionesabiertas.saem.gob.mx/record-package/ocds-hh5rsz-2024-08-30_18:12:19.224162-06"
+    }
+  ],
+  "language": "es"
+}]

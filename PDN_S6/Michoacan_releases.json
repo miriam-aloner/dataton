@@ -1,0 +1,1294 @@
+[{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e8c"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-15",
+  "id": "SESEA-15-2023-09-25",
+  "date": "2023-09-25T18:02:28Z",
+  "tag": [
+    "planning"
+  ],
+  "parties": [
+    {
+      "name": "Multisistemas Valcer, S.A. de C.V.",
+      "id": "MX-RFC-MVA991029SE0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Multisistemas Valcer, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Multisistemas Valcer, S.A. de C.V.",
+          "uri": "http://www.multisis.com.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Batallón de Matamoros N° 92, Col. Chapultepec Sur.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://cadpe.michoacan.gob.mx/"
+      }
+    },
+    {
+      "name": "Ondacell, S.A. de C.V.",
+      "id": "MX-RFC-OND010710JB0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Ondacell, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Ondacell, S.A. de C.V.",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Av. Lázaro Cárdenas N° 2908C-A, Col. Chapultepec Sur.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://www.ondacell.com.mx/"
+      }
+    },
+    {
+      "name": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V.",
+      "id": "MX-RFC-OND0000000",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V.",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "FRAY ANTONIO DE SAN MIGUEL IGLESIAS.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58272",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "014433198597",
+        "faxNumber": "",
+        "url": "https://comerciomexico.com/proveedores/inter-pc-desarrollo-sistemas-interactivo.html"
+      }
+    },
+    {
+      "name": "Microprocesadores Y Computadoras De Morelia",
+      "id": "MX-RFC-OND000022",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Microprocesadores Y Computadoras De Morelia"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Microprocesadores Y Computadoras De Morelia",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Virrey de Mendoza 255",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58000",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "443 275 3060",
+        "faxNumber": "",
+        "url": "https://local.infobel.mx/MX102723923-4432753060/microprocesadores_y_computadoras_de_morelia-morelia.html"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "Con fundamento en lo estipulado en la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, su Reglamento y las Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, para el ejercicio 2019, se solicitó el inicio  del Procedimiento de Invitación Restringida a cuando menos Tres Proveedores Estatal, referente a la adquisición de Bienes Informáticos."
+  },
+  "tender": {
+    "id": "15",
+    "title": "Licitación NÚM. CADPE-EM-LPE-130/2019-2ª. (LPE-111/2019)",
+    "description": "Bienes informáticos.",
+    "status": "complete",
+    "value": {
+      "amount": 505975,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 505975,
+      "currency": "MXN"
+    },
+    "procurementMethod": "selective",
+    "procurementMethodDetails": "Todos los proveedores interesados, registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "procurementMethodRationale": "Abierta – Para los proveedores registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goods"
+    ],
+    "awardCriteria": "qualityOnly",
+    "awardCriteriaDetails": "Los interesados podrán revisar las bases previamente al pago, en el domicilio del Comité de Adquisiciones del Poder Ejecutivo los días 07, 08 y 11 de noviembre de 2019, en horario de 09:00 a 14:00 horas.",
+    "submissionMethod": [
+      "electronicSubmission",
+      "inPerson"
+    ],
+    "tenderPeriod": {
+      "startDate": "2019-11-07T18:15:19Z",
+      "endDate": "2019-11-13T18:15:19Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-11-14T18:15:19Z",
+      "endDate": "2019-11-14T18:15:19Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El Proveedor que reúna las condiciones legales, técnicas y económicas requeridas; y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo y de cumplimiento del Anexo N° 1 de las Bases de Licitación.\r\nEn la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.\r\nSe aceptarán únicamente las propuestas de los licitantes que se ajusten a las especificaciones técnicas, cantidades, tiempos de entrega y demás condiciones establecidas en las bases y sus anexos; así como lo acordado en la junta de aclaraciones.\r\nUna vez hecha la evaluación de las proposiciones, el contrato se adjudicará por partida de entre los licitantes, a aquel cuya propuesta resulte solvente porque reúne la totalidad de las condiciones legales, técnicas y económicas requeridas por la convocante y garantice satisfactoriamente el cumplimiento de las obligaciones respectivas.\r\nSi resultare que dos o más proposiciones son solventes porque satisfacen la totalidad de los requerimientos solicitados por la convocante, el contrato se adjudicará a quien presente la proposición cuyo precio sea el más bajo.\r\nSi de la evaluación económica resultare empate en precio de dos o más proposiciones, en una misma o más partidas, la adjudicación se efectuará  preferentemente entre los proveedores radicados físicamente en el Estado y no  los hubiere se hará a favor del licitante que resulte ganador del sorteo que realice la convocante en el propio acto del fallo, el cual consistirá en depositar en una urna o recipiente transparente las boletas con el nombre de cada licitante empatado, acto seguido se extraerá en primer lugar la boleta del licitante ganador y posteriormente las demás boletas de los licitantes que resultaron empatados en esa partida, con lo cual de determinarán los subsecuentes lugares que ocuparan las proposiciones.  Si hubiera más partidas empatadas se llevará a cabo un sorteo por cada una de ellas, hasta concluir con la última.",
+    "awardPeriod": {
+      "startDate": "2019-11-21T18:15:19Z",
+      "endDate": "2019-11-25T18:15:19Z"
+    },
+    "numberOfTenderers": 0
+  },
+  "awards": [
+    {
+      "id": "16",
+      "title": "Adjudicación N° CADPE-EM-LPE-130/2019-2a.(LPE-111/2019)",
+      "description": "Licitación Pública Estatal N° CADPE-EM-LPE-130/2019-2a.(LPE-111/2019) Bienes Informáticos. Acta de notificación del Fallo de Adjudicación e información de la evaluación y dictamen correspondiente.",
+      "status": "active",
+      "date": "2019-12-23T18:20:23Z",
+      "value": {
+        "amount": 505975,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "MVA991029SE0",
+          "name": "Multisistemas Valcer, S.A. de C.V."
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "17",
+      "awardID": "16",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-130/2019-2DA. (LPE-111/2019)-1",
+      "description": "Bines Informáticos.  PARTIDAS 1, 2, Y 3",
+      "status": "active",
+      "value": {
+        "amount": 505975,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-23T18:21:26Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e89"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-12",
+  "id": "SESEA-12-2023-08-14",
+  "date": "2023-08-14T17:16:47Z",
+  "tag": [
+    "planningUpdate"
+  ],
+  "parties": [
+    {
+      "name": "SESEA MICHOACÁN",
+      "id": "MX-RFC-SES170719GA7",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN DE MICHOACÁN",
+          "uri": "https://opencorporates.com/"
+        }
+      ],
+      "address": {
+        "streetAddress": "ARTILLEROS DE 1847 640-1",
+        "locality": "MORELIA",
+        "region": "MORELIA",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "SESEA",
+        "email": "contacto@seseamichoacan.com",
+        "telephone": "4432984009",
+        "faxNumber": "4432984009",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/"
+      }
+    },
+    {
+      "name": "Multisistemas Valcer, S.A. de C.V.",
+      "id": "MX-RFC-MVA991029SE0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Multisistemas Valcer, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Multisistemas Valcer, S.A. de C.V."
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Batallón de Matamoros N° 92, Col. Chapultepec Sur.",
+        "locality": "Morelia",
+        "region": "Morelia",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "url": "https://cadpe.michoacan.gob.mx/"
+      }
+    },
+    {
+      "name": "Guadalupe Hernández Jiménez",
+      "id": "MX-RFC-HEJG851212NY4",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Guadalupe Hernández Jiménez"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Guadalupe Hernández Jiménez"
+        }
+      ],
+      "address": {
+        "streetAddress": " ",
+        "locality": "Morelia",
+        "region": "Morelia",
+        "postalCode": " ",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": " ",
+        "email": "",
+        "telephone": "",
+        "url": "https://cadpe.michoacan.gob.mx/padron-proveedores/"
+      }
+    },
+    {
+      "name": "Josué Moisés Zavala",
+      "id": "MX-RFC-GOZJ80011005H",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Josué Moisés Zavala"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Josué Moisés Zavala"
+        }
+      ],
+      "address": {
+        "streetAddress": " ",
+        "locality": "Morelia",
+        "region": "Morelia",
+        "postalCode": " ",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": " ",
+        "email": "",
+        "telephone": "",
+        "url": "https://cadpe.michoacan.gob.mx/padron-proveedores/"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "En la actualidad, la información de los servidores públicos y particulares sancionados de los diferentes niveles de gobierno se encuentra contenida en diversos formatos, bases de datos y sistemas de información; cada uno de ellos con particularidades tecnológicas y reglas de negocio distintas, dificultando la integración y la interoperabilidad de los datos.  El Estándar para la interoperabilidad de Datos de Servidores Públicos y Particulares Sancionados surge a partir de la necesidad de distribuir, comparar y analizar la información de una manera uniforme e interoperable.\r\nConforme a lo anterior, la SESNA ha conceptualizado a la Plataforma Digital Nacional (PDN) como una herramienta que permitirá la consulta de información de las diferentes instituciones de los tres niveles de gobierno en un solo punto, sin tener el objetivo de concentrarla o resguardarla.  En ese sentido, resulta necesario dotar a la PDN de mecanismos que le permitan interconectarse con los diversos sistemas de gobierno para consultar la información que resulte necesaria, sin importar la tecnología con la que dichos sistemas fueron desarrollados (i.e., lenguajes de programación, bases de datos, etc.).\r\nLa PDN logrará la interoperabilidad técnica con los diversos sistemas que la integrarán a través de la creación de estándares de datos y mediante el uso de Interfaces de Programación de Aplicaciones o APIS (por sus siglas en inglés).  Los estándares de datos permitirán homologar la manera en que la información se debe representar para su entrega a la PDN, mientras que las APIs serán el mecanismo que permitirá la comunicación entre sistemas a través de Internet.  Las APIs son ampliamente usadas para el desarrollo de aplicaciones a gran escala.  El uso de las APIs permitirá que las instituciones conserven el control de sus datos, gestionando el acceso a los mismos mediante reglas y perfiles de usuario.\r\nLa SESNA ha planeado el desarrollo de la PDN mediante el uso de APIs Web con arquitectura REST (REpresentational State Transfer).  Dicha tecnología es ampliamente usada por la industria del software para el desarrollo de aplicaciones Web, y en la actualidad, existe gran diversidad de herramientas de código abierto que permiten la implementación de sistemas basados en APIs REST de manera rápida ya un bajo costo.\r\nSe integra de 4 secciones: 1 Visor de datos (Servidores Públicos Sancionados), 2 Visor de datos (Particulares sancionados), 3 Buscador de Servidores Públicos Sancionados y 4 Buscador de Particulares Sancionados.",
+    "documents": [
+      {
+        "id": "9",
+        "documentType": "Plan de Proyecto",
+        "title": "Justificación  N° CADPE-EM-LPE-140",
+        "description": "Justificación  de  cubrir la necesidad de dotar a la PDN de mecanismos que le permitan interconectarse con los diversos sistemas de gobierno para consultar la información que resulte necesaria.",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-12-2023-08-14/planeacion/planeacion140.pdf",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "tender": {
+    "id": "12",
+    "title": "N° CADPE-EM-LPE-140",
+    "description": "Prestación del Servicio de Sistema de Servidores Públicos y Particulares Sancionados.",
+    "status": "complete",
+    "items": [
+      {
+        "id": "3",
+        "description": "sistemasPDE",
+        "quantity": 1,
+        "unit": {
+          "name": "servicio",
+          "value": {
+            "amount": 1461333,
+            "currency": "MXN"
+          }
+        }
+      }
+    ],
+    "value": {
+      "amount": 1461333,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 1461333,
+      "currency": "MXN"
+    },
+    "procurementMethod": "open",
+    "procurementMethodDetails": "Todos los proveedores interesados, registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "procurementMethodRationale": "Invitación Restringida a cuando menos Tres Proveedores Estatal.",
+    "mainProcurementCategory": "services",
+    "additionalProcurementCategories": [
+      "services"
+    ],
+    "awardCriteria": "ratedCriteria",
+    "awardCriteriaDetails": "Reúna las condiciones legales, técnicas y económicas requeridas y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) de",
+    "submissionMethod": [
+      "electronicSubmission",
+      "written",
+      "inPerson"
+    ],
+    "tenderPeriod": {
+      "startDate": "2023-08-13T16:17:36Z",
+      "endDate": "2023-08-17T16:17:42Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-12-13T06:00:00Z",
+      "endDate": "2019-12-17T06:00:00Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El Proveedor que reúna las condiciones legales, técnicas y económicas requeridas; y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo y de cumplimiento del Anexo N° 1 de las Bases de Licitación.",
+    "awardPeriod": {
+      "startDate": "2019-12-27T06:00:00Z",
+      "endDate": "2019-12-29T06:00:00Z"
+    },
+    "numberOfTenderers": 0,
+    "documents": [
+      {
+        "id": "7",
+        "documentType": "Aviso de Licitación",
+        "title": "convocatoria N° CADPE-EM-LPE-140",
+        "description": "Convocatoria a las personas físicas y morales interesadas en participar con su oferta en la presente Licitación Pública Estatal.",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-12-2023-08-14/licitacion/CONVOCATORIA-166.pdf",
+        "datePublished": "2019-12-13T14:54:58Z",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "awards": [
+    {
+      "id": "11",
+      "title": "N° CADPE-EM-LPE-140",
+      "description": "Licitación Pública Estatal N° CADPE-EM-LPE-140/2019. Servicios de Informática. Acta de notificación del Fallo de Adjudicación e información de la evaluación y dictamen correspondiente.",
+      "status": "active",
+      "date": "2019-12-30T06:00:00Z",
+      "value": {
+        "amount": 1461333,
+        "currency": "MXN"
+      },
+      "contractPeriod": {
+        "startDate": "2019-12-31T06:00:00Z",
+        "endDate": "2021-12-31T06:00:00Z"
+      },
+      "documents": [
+        {
+          "id": "3",
+          "documentType": "Documentos de presentación de ofertas",
+          "title": "Acta de presentación y apertura  de propuestas técnicas y económicas.",
+          "description": "Documento donde consta la presentación las propuestas",
+          "url": "https://sip.cadpe.michoacan.gob.mx/doc_licitacion/166/APERTURA%20DE%20PROPUESTAS-166.pdf?next=7450",
+          "datePublished": "0202-08-24T23:04:33Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "9",
+      "awardID": "11",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-140/2019-1",
+      "description": "Prestación del Servicio de Sistema de Servidores Públicos y Particulares Sancionados.",
+      "status": "active",
+      "value": {
+        "amount": 1461333,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-31T06:00:00Z",
+      "documents": [
+        {
+          "id": "5",
+          "documentType": "Contrato firmado",
+          "title": "contrato numero CADPE_EM_LPE_140/2019",
+          "description": "Contrato de prestación de servicios por licitación pública",
+          "url": "https://sip.cadpe.michoacan.gob.mx/doc_licitacion/166/CONVOCATORIA-166.pdf?next=7450",
+          "datePublished": "2019-12-13T06:00:00Z",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "8",
+          "documentType": "Reporte de evaluacion",
+          "title": "información de la evaluación n° CADPE-EM-LPE-140",
+          "description": "Acta de notificación del fallo de adjudicación e información de la evaluación y dictamen correspondiente",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-12-2023-08-14/contrato/Reporte-166.pdf",
+          "datePublished": "2019-12-20T06:00:00Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e8e"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-18",
+  "id": "SESEA-18-2023-09-25",
+  "date": "2023-09-25T19:17:42Z",
+  "tag": [
+    "planning"
+  ],
+  "parties": [
+    {
+      "name": "SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN",
+      "id": "MX-RFC-HEHG851212NY4",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Guadalupe Hernández Jiménez"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Guadalupe Hernández Jiménez",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Salerno N° 39, Int. 19, Col. San Mateo II.",
+        "locality": "MORELIA",
+        "region": "MORELIA",
+        "postalCode": "58337",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://cadpe.michoacan.gob.mx/"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "Con fundamento en lo estipulado en la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo, su Reglamento y las Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles del Estado de Michoacán de Ocampo, para el ejercicio 2019, se solicitó el inicio  del Procedimiento de Invitación Restringida a cuando menos Tres Proveedores Estatal, referente a la adquisición de Dos Impresoras Láser.\r\nEl origen del recurso es federal del ramo 28, denominado participaciones a entidades federativas y municipios, correspondientes a las participaciones en ingresos federales e incentivos económicos, de acuerdo a la Ley Fiscal y los Convenios de Adhesión al Sistema Nacional de Coordinación Fiscal y sus anexos, así como de conformidad con los Convenios de Colaboración Administrativa en materia Fiscal Federal y sus anexos.\r\nLos recursos del Ramo 28 no están etiquetados, es decir, no tienen un destino específico en el gasto de los gobiernos locales.\r\nAsimismo, el recurso en mención deriva de las participaciones 09 del Fondo General de Participaciones.\r\nPor su forma de transferencia se convierten en recursos estatales y se ejercen sujetándose a la normatividad estatal."
+  },
+  "tender": {
+    "id": "18",
+    "title": "Licitación NÚM. 148-19-10EXTRAORD-4SA-CADPE-1",
+    "description": "Adjudicación Directa de 2 impresoras láser.",
+    "status": "complete",
+    "value": {
+      "amount": 29074.01,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 29074.01,
+      "currency": "MXN"
+    },
+    "procurementMethod": "direct",
+    "procurementMethodDetails": "Todos los proveedores interesados, registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "procurementMethodRationale": "Solo 3 candidatos por el Comité de Adquisiciones del Poder Ejecutivo",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goods"
+    ],
+    "awardCriteria": "ratedCriteria",
+    "awardCriteriaDetails": "autorizado por el comité de adquisiciones del Poder Ejecutivo",
+    "submissionMethod": [
+      "electronicSubmission",
+      "inPerson"
+    ],
+    "tenderPeriod": {
+      "startDate": "2019-12-03T19:33:39Z",
+      "endDate": "2019-12-03T19:33:39Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-12-03T19:34:17Z",
+      "endDate": "2019-12-16T19:34:17Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El proveedor que reúna las condiciones legales, técnicas y económicas requeridas.",
+    "awardPeriod": {
+      "startDate": "2019-12-03T19:35:37Z",
+      "endDate": "2019-12-20T19:35:37Z"
+    },
+    "numberOfTenderers": 0
+  },
+  "awards": [
+    {
+      "id": "19",
+      "title": "Adjudicación NÚM. 148-19-10EXTRAORD-4SA-CADPE-1",
+      "description": "Los integrantes del Pleno del Comité de Adquisiciones del Poder Ejecutivo, por unanimidad de votos, autorizan a la solicitante la contratación por Adjudicación Directa para adquirir 2 impresoras láser, con la proveedora “Guadalupe Hernández Jiménez”, por un monto  total de $29,074.01 (VEINTINUEVE MIL SETENTA Y CUATRO PESOS, 01/100 M.N.), tomando en consideración que se trata de recursos derivados de una economía de la Licitación Pública número CADPE-EM-LPE-111/2019, así como que el costo de los bienes no justifica la celebración de otro Licitación Pública”",
+      "status": "active",
+      "date": "2019-12-27T19:37:53Z",
+      "value": {
+        "amount": 29074.01,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "AHU821206B38",
+          "name": "Automotores La Huerta, S.A. de C.V."
+        }
+      ],
+      "contractPeriod": {
+        "startDate": "2019-12-27T19:37:53Z",
+        "endDate": "2019-12-27T19:37:53Z"
+      }
+    }
+  ],
+  "contracts": [
+    {
+      "id": "20",
+      "awardID": "19",
+      "title": "CONTRATO NÚM. 148-19-10EXTRAORD-4SA-CADPE-1",
+      "description": "Dos impresoras láser.",
+      "status": "terminated",
+      "value": {
+        "amount": 29074.01,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-27T19:39:46Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e8a"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-13",
+  "id": "SESEA-13-2023-08-28",
+  "date": "2023-08-28T20:33:11Z",
+  "tag": [
+    "planning"
+  ],
+  "parties": [
+    {
+      "name": "Industrias Jafher, S.A. de C.V.",
+      "id": "MX-RFC-IJA790503F39",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Industrias Jafher, S.A. de C.V.",
+          "uri": "https://opencorporates.com/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Avenida Nueva Tepecyac N° 425, Col. San Rafael.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Industrias Jafher, S.A. de C.V.",
+        "email": " ",
+        "telephone": "(443) 315 3808",
+        "faxNumber": " ",
+        "url": "https://www.jafher.com.mx/"
+      }
+    },
+    {
+      "name": "Verónica Pineda Cisneros.",
+      "id": "MX-RFC-PICV720408GG0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Verónica Pineda Cisneros."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Verónica Pineda Cisneros.",
+          "uri": "https://opencorporates.com/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Obispo del Acueducto N° 1054, Col. Fray Antonio de San Miguel Iglesias.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58277",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://cadpe.michoacan.gob.mx/"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "Con fundamento en lo estipulado en la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, su Reglamento y las Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, para el ejercicio 2019, se solicitó el inicio  del Procedimiento de Invitación Restringida a cuando menos Tres Proveedores Estatal, referente a la adquisición de Mobiliario.\r\nEl origen del recurso es federal del ramo 28, denominado participaciones a entidades federativas y municipios, correspondientes a las participaciones en ingresos federales e incentivos económicos, de acuerdo a la Ley Fiscal y los Convenios de Adhesión al Sistema Nacional de Coordinación Fiscal y sus anexos, así como de conformidad con los Convenios de Colaboración Administrativa en materia Fiscal Federal y sus anexos.\r\nLos recursos del Ramo 28 no están etiquetados, es decir, no tienen un destino específico en el gasto de los gobiernos locales.\r\nAsimismo, el recurso en mención deriva de las participaciones 09 del Fondo General de Participaciones.\r\nPor su forma de transferencia se convierten en recursos estatales y se ejercen sujetándose a la normatividad estatal."
+  },
+  "tender": {
+    "id": "13",
+    "title": "Licitación N° CADPE-EM-LPE-110/2019-1",
+    "description": "Adquisición de Mobiliario.",
+    "status": "complete",
+    "value": {
+      "amount": 610000,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 610000,
+      "currency": "MXN"
+    },
+    "procurementMethod": "open",
+    "procurementMethodDetails": "Todos los proveedores interesados, registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "procurementMethodRationale": "Invitación Restringida a cuando menos Tres Proveedores Estatal",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goods"
+    ],
+    "awardCriteria": "qualityOnly",
+    "awardCriteriaDetails": "En la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.",
+    "submissionMethod": [
+      "electronicSubmission",
+      "inPerson"
+    ],
+    "tenderPeriod": {
+      "startDate": "2019-11-07T20:16:08Z",
+      "endDate": "2019-11-14T20:16:08Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-11-15T20:16:08Z",
+      "endDate": "2019-11-15T20:16:08Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El Proveedor que reúna las condiciones legales, técnicas y económicas requeridas; y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo y de cumplimiento del Anexo N° 1 de las Bases de Licitación.\r\nEn la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.\r\nSe aceptarán únicamente las propuestas de los licitantes que se ajusten a las especificaciones técnicas, cantidades, tiempos de entrega y demás condiciones establecidas en las bases y sus anexos; así como lo acordado en la junta de aclaraciones.\r\nUna vez hecha la evaluación de las proposiciones, el contrato se adjudicará por partida de entre los licitantes, a aquel cuya propuesta resulte solvente porque reúne la totalidad de las condiciones legales, técnicas y económicas requeridas por la convocante y garantice satisfactoriamente el cumplimiento de las obligaciones respectivas.\r\nSi resultare que dos o más proposiciones son solventes porque satisfacen la totalidad de los requerimientos solicitados por la convocante, el contrato se adjudicará a quien presente la proposición cuyo precio sea el más bajo.\r\nSi de la evaluación económica resultare empate en precio de dos o más proposiciones, en una misma o más partidas, la adjudicación se efectuará  preferentemente entre los proveedores radicados físicamente en el Estado y no  los hubiere se hará a favor del licitante que resulte ganador del sorteo que realice la convocante en el propio acto del fallo, el cual consistirá en depositar en una urna o recipiente transparente las boletas con el nombre de cada licitante empatado, acto seguido se extraerá en primer lugar la boleta del licitante ganador y posteriormente las demás boletas de los licitantes que resultaron empatados en esa partida, con lo cual de determinarán los subsecuentes lugares que ocuparan las proposiciones.  Si hubiera más partidas empatadas se llevará a cabo un sorteo por cada una de ellas, hasta concluir con la última.",
+    "awardPeriod": {
+      "startDate": "2019-11-22T20:16:08Z",
+      "endDate": "2019-11-25T20:16:08Z"
+    },
+    "numberOfTenderers": 0,
+    "documents": [
+      {
+        "id": "10",
+        "documentType": "Aviso de Audiencia Pública",
+        "title": "CONVOCATORIA-151",
+        "description": "Convocatoria para personas físicas y morales interesadas en participar con su oferta en la LICITACIÓN 110-2019 Y 126-2019",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-13-2023-08-28/licitacion/CONVOCATORIA-151.pdf",
+        "datePublished": "2023-09-27T17:19:28Z",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "awards": [
+    {
+      "id": "12",
+      "title": "Adjudicación N° CADPE-EM-LPE-110/2019",
+      "description": "Licitación Pública Estatal N° CADPE-EM-LPE-110/2019. Mobiliario. Acta de notificación del Fallo de Adjudicación e información de la evaluación y dictamen correspondiente.",
+      "status": "active",
+      "date": "2019-11-25T20:21:08Z",
+      "value": {
+        "amount": 220041,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "IJA790503F39",
+          "name": "Industrias Jafher, S.A. de C.V."
+        }
+      ],
+      "documents": [
+        {
+          "id": "11",
+          "documentType": "Especificaciones técnicas",
+          "title": "Acta de presentación y apertura de propuestas técnicas e económicas",
+          "description": "Apertura de propuestas técnicas e económicas de la LICITACIÓN 126-2019",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-13-2023-08-28/adjudicacion/APERTURA_DE_PROPUESTAS-151.pdf",
+          "datePublished": "2019-09-20T06:09:00Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "11",
+      "awardID": "12",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-110/2019-1",
+      "description": "Mobiliario.  PARTIDAS 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 17, 19 Y 21",
+      "status": "terminated",
+      "value": {
+        "amount": 220041,
+        "currency": "MXN"
+      },
+      "dateSigned": "2023-09-13T15:05:06Z",
+      "documents": [
+        {
+          "id": "12",
+          "documentType": "Quejas y decisiones",
+          "title": "Notificación del fallo de adjudicación",
+          "description": "Notificación del fallo de adjudicación para la LICITACIÓN 126-2019",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-13-2023-08-28/contrato/FALLO-151.pdf",
+          "datePublished": "2019-12-23T07:09:00Z",
+          "format": "pdf",
+          "language": "es"
+        },
+        {
+          "id": "13",
+          "documentType": "Especificaciones técnicas",
+          "title": "Dictamen Técnico y Cuadro Comparativo",
+          "description": "Dictamen Técnico y Cuadro Comparativo, correspondiente al procedimiento de Licitación Publica Estatal,  No. CADPE-EM-LPE-126/2019-2",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-13-2023-08-28/contrato/DICTAMENES-151.pdf",
+          "datePublished": "2019-12-23T07:09:00Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e8b"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-14",
+  "id": "SESEA-14-2023-09-25",
+  "date": "2023-09-25T16:10:29Z",
+  "tag": [
+    "planning"
+  ],
+  "parties": [
+    {
+      "name": "Multisistemas Valcer, S.A. de C.V.",
+      "id": "MX-RFC-MVA991029SE0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Multisistemas Valcer, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Multisistemas Valcer, S.A. de C.V.",
+          "uri": "http://www.multisis.com.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Batallón de Matamoros N° 92, Col. Chapultepec Sur.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://cadpe.michoacan.gob.mx/"
+      }
+    },
+    {
+      "name": "Ondacell, S.A. de C.V.",
+      "id": "MX-RFC-OND010710JB0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Ondacell, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Ondacell, S.A. de C.V.",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Av. Lázaro Cárdenas N° 2908C-A, Col. Chapultepec Sur.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58260",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "",
+        "faxNumber": "",
+        "url": "https://www.ondacell.com.mx/"
+      }
+    },
+    {
+      "name": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V.",
+      "id": "MX-RFC-OND0000000",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Inter PC Desarrollo de Sistemas Interactivos, S.A. de C.V.",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "FRAY ANTONIO DE SAN MIGUEL IGLESIAS.",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58272",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "014433198597",
+        "faxNumber": "",
+        "url": "https://comerciomexico.com/proveedores/inter-pc-desarrollo-sistemas-interactivo.html"
+      }
+    },
+    {
+      "name": "Microprocesadores Y Computadoras De Morelia",
+      "id": "MX-RFC-OND000022",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Microprocesadores Y Computadoras De Morelia"
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Microprocesadores Y Computadoras De Morelia",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calle Virrey de Mendoza 255",
+        "locality": "Morelia, Michoacán.",
+        "region": "Michoacán.",
+        "postalCode": "58000",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "443 275 3060",
+        "faxNumber": "",
+        "url": "https://local.infobel.mx/MX102723923-4432753060/microprocesadores_y_computadoras_de_morelia-morelia.html"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "Con fundamento en lo estipulado en la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, su Reglamento y las Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles, de Estado de Michoacán de Ocampo, para el ejercicio 2019, se solicitó el inicio  del Procedimiento de Invitación Restringida a cuando menos Tres Proveedores Estatal, referente a la adquisición de Bienes Informáticos.",
+    "documents": [
+      {
+        "id": "14",
+        "documentType": "Aviso de Audiencia Pública",
+        "title": "convocatoria N° CADPE-EM-LPE-111/2019",
+        "description": "Convocatoria a las personas físicas y morales interesadas en participar con su oferta en la licitación  N° CADPE-EM-LPE-111/2019",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-14-2023-09-25/planeacion/CONVOCATORIA-151.pdf",
+        "datePublished": "2019-11-07T19:01:32Z",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "tender": {
+    "id": "14",
+    "title": "Licitación N° CADPE-EM-LPE-111/2019",
+    "description": "Bienes informáticos.",
+    "status": "complete",
+    "value": {
+      "amount": 905741,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 905741,
+      "currency": "MXN"
+    },
+    "procurementMethod": "selective",
+    "procurementMethodDetails": "Licitación Pública Estatal.",
+    "procurementMethodRationale": "Abierta – Para los proveedores registrados en el Padrón de Proveedores de la Administración",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goods"
+    ],
+    "awardCriteria": "priceOnly",
+    "tenderPeriod": {
+      "startDate": "2019-11-07T16:27:49Z",
+      "endDate": "2019-11-13T16:27:49Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-11-14T16:27:49Z",
+      "endDate": "2019-11-14T16:27:49Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El Proveedor que reúna las condiciones legales, técnicas y económicas requeridas; y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo y de cumplimiento del Anexo N° 1 de las Bases de Licitación.\r\nEn la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.\r\nSe aceptarán únicamente las propuestas de los licitantes que se ajusten a las especificaciones técnicas, cantidades, tiempos de entrega y demás condiciones establecidas en las bases y sus anexos; así como lo acordado en la junta de aclaraciones.\r\nUna vez hecha la evaluación de las proposiciones, el contrato se adjudicará por partida de entre los licitantes, a aquel cuya propuesta resulte solvente porque reúne la totalidad de las condiciones legales, técnicas y económicas requeridas por la convocante y garantice satisfactoriamente el cumplimiento de las obligaciones respectivas.\r\nSi resultare que dos o más proposiciones son solventes porque satisfacen la totalidad de los requerimientos solicitados por la convocante, el contrato se adjudicará a quien presente la proposición cuyo precio sea el más bajo.\r\nSi de la evaluación económica resultare empate en precio de dos o más proposiciones, en una misma o más partidas, la adjudicación se efectuará  preferentemente entre los proveedores radicados físicamente en el Estado y no  los hubiere se hará a favor del licitante que resulte ganador del sorteo que realice la convocante en el propio acto del fallo, el cual consistirá en depositar en una urna o recipiente transparente las boletas con el nombre de cada licitante empatado, acto seguido se extraerá en primer lugar la boleta del licitante ganador y posteriormente las demás boletas de los licitantes que resultaron empatados en esa partida, con lo cual de determinarán los subsecuentes lugares que ocuparan las proposiciones.  Si hubiera más partidas empatadas se llevará a cabo un sorteo por cada una de ellas, hasta concluir con la última.",
+    "awardPeriod": {
+      "startDate": "2019-11-21T16:27:49Z",
+      "endDate": "2019-11-25T16:27:49Z"
+    },
+    "numberOfTenderers": 0,
+    "documents": [
+      {
+        "id": "15",
+        "documentType": "Aviso de contratación planificada",
+        "title": "Acta de presentación y apertura  de propuestas técnicas y económicas.",
+        "description": "Acta de presentación y apertura  de propuestas técnicas y económicas de LICITACIÓN 111-2019",
+        "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-14-2023-09-25/licitacion/APERTURA_DE_PROPUESTAS-151.pdf",
+        "datePublished": "2021-11-21T19:04:24Z",
+        "format": "pdf",
+        "language": "es"
+      }
+    ]
+  },
+  "awards": [
+    {
+      "id": "13",
+      "title": "Adjudicación N° CADPE-EM-LPE-111/2019",
+      "description": "Licitación Pública Estatal N° CADPE-EM-LPE-111/2019. Bienes Informáticos. Acta de notificación del Fallo de Adjudicación e información de la evaluación y dictamen correspondiente.",
+      "status": "active",
+      "date": "2019-11-25T16:37:16Z",
+      "value": {
+        "amount": 393470,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "OND010710JB0",
+          "name": "Ondacell, S.A. de C.V."
+        },
+        {
+          "id": "MVA991029SE0",
+          "name": "Multisistemas Valcer, S.A. de C.V."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "N° CADPE-EM-LPE-111/2019-AMP-1",
+      "description": "Bienes informáticos.",
+      "status": "active",
+      "date": "2019-12-23T17:35:11Z",
+      "value": {
+        "amount": 3433,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "MVA991029SE0",
+          "name": "Multisistemas Valcer, S.A. de C.V."
+        },
+        {
+          "id": "OND010710JB0",
+          "name": "Ondacell, S.A. de C.V."
+        }
+      ],
+      "documents": [
+        {
+          "id": "16",
+          "documentType": "Aviso de Adjudicación",
+          "title": "Dictamen N CADPE-EM-LPE-111/2019",
+          "description": "Dictamen Económico, Dictamen Técnico y Cuadro Comparativo correspondiente a la adquisición N CADPE-EM-LPE-111/2019",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-14-2023-09-25/adjudicacion/DICTAMENES-151.pdf",
+          "datePublished": "2019-11-22T07:09:00Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Licitación N° CADPE-EM-LPE-130/2019-2a.(LPE-111/2019)",
+      "description": "Licitación Pública Estatal N° CADPE-EM-LPE-130/2019-2a.(LPE-111/2019) Bienes Informáticos. Acta de notificación del Fallo de Adjudicación e información de la evaluación y dictamen correspondiente.",
+      "status": "active",
+      "date": "2019-12-23T17:35:11Z",
+      "value": {
+        "amount": 505975,
+        "currency": "MXN"
+      }
+    }
+  ],
+  "contracts": [
+    {
+      "id": "14",
+      "awardID": "13",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-111/2019-AMP-1",
+      "description": "Bines Informáticos.  AMPLIACIÓN A LA PARTIDA 5",
+      "status": "terminated",
+      "value": {
+        "amount": 3433,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-23T17:23:11Z",
+      "documents": [
+        {
+          "id": "17",
+          "documentType": "Aviso de Adjudicación",
+          "title": "Acta de notificación  CADPE-EM-LPE-111-2019",
+          "description": "Acta de notificación  del fallo de adjudicación e información de la evaluación y dictamen correspondiente CADPE-EM-LPE-111-2019",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-14-2023-09-25/contrato/FALLO-151.pdf",
+          "datePublished": "2023-09-27T06:09:00Z",
+          "dateModified": "2023-09-27T06:09:00Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "awardID": "14",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-130/2019-2DA. (LPE-111/2019)-1",
+      "description": "Bines Informáticos.  PARTIDAS 1, 2, Y 3",
+      "status": "terminated",
+      "value": {
+        "amount": 505975,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-23T17:36:28Z"
+    },
+    {
+      "id": "16",
+      "awardID": "15",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-111/2019-AMP-1",
+      "description": "Bines Informáticos.  AMPLIACIÓN A LA PARTIDA 5",
+      "status": "terminated",
+      "value": {
+        "amount": 3433,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-23T17:40:26Z"
+    },
+    {
+      "id": "12",
+      "awardID": "13",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-111/2019-1",
+      "description": "Bines Informáticos.  PARTIDAS 4, 6, 7 Y 8",
+      "status": "terminated",
+      "value": {
+        "amount": 393470,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-06T17:18:38Z"
+    },
+    {
+      "id": "13",
+      "awardID": "13",
+      "title": "CONTRATO NÚM. CADPE-EM-LPE-111/2019-2",
+      "description": "Bines Informáticos.  PARTIDA 5",
+      "status": "terminated",
+      "value": {
+        "amount": 22318,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-06T17:21:36Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652734f6410ff4856cbf8e8d"
+  },
+  "ocid": "ocds-a2ef3d-SESEA-16",
+  "id": "SESEA-16-2023-09-25",
+  "date": "2023-09-25T18:37:17Z",
+  "tag": [
+    "planning"
+  ],
+  "parties": [
+    {
+      "name": "Automotores La Huerta, S.A. de C.V.",
+      "id": "MX-RFC-AHU821206B38",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "legalName": "Automotores La Huerta, S.A. de C.V."
+      },
+      "additionalIdentifiers": [
+        {
+          "scheme": "MX-RFC",
+          "legalName": "Automotores La Huerta, S.A. de C.V.",
+          "uri": "https://cadpe.michoacan.gob.mx/"
+        }
+      ],
+      "address": {
+        "streetAddress": "Calzada La Huerta N° 1965, Fraccionamiento Los Pinos de Michoacán.",
+        "locality": "Morelia, Michoacán.",
+        "region": "MORELIA",
+        "postalCode": "58057",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "",
+        "email": "",
+        "telephone": "4433261126",
+        "faxNumber": "4433261126",
+        "url": "https://vw-lahuerta.com.mx/"
+      }
+    }
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "id": "SES170719GA7",
+    "name": "SESEA MICHOACÁN"
+  },
+  "planning": {
+    "rationale": "Con fundamento en lo estipulado en la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo, su Reglamento y las Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Prestación de Servicios Relacionados con Bienes Muebles e Inmuebles del Estado de Michoacán de Ocampo, para el ejercicio 2019, se solicitó el inicio  del Procedimiento de Invitación Restringida a cuando menos Tres Proveedores Estatal, referente a la adquisición de un Vehículo, modelo 2020 de 4 cilindros.\r\nEl origen del recurso es federal del ramo 28, denominado participaciones a entidades federativas y municipios, correspondientes a las participaciones en ingresos federales e incentivos económicos, de acuerdo a la Ley Fiscal y los Convenios de Adhesión al Sistema Nacional de Coordinación Fiscal y sus anexos, así como de conformidad con los Convenios de Colaboración Administrativa en materia Fiscal Federal y sus anexos.\r\nLos recursos del Ramo 28 no están etiquetados, es decir, no tienen un destino específico en el gasto de los gobiernos locales.\r\nAsimismo, el recurso en mención deriva de las participaciones 09 del Fondo General de Participaciones.\r\nPor su forma de transferencia se convierten en recursos estatales y se ejercen sujetándose a la normatividad estatal."
+  },
+  "tender": {
+    "id": "16",
+    "title": "Licitación N° CADPE-EM-LPE-143/2019",
+    "description": "Adquisición de Un Vehículo, Modelo 2020 de 4 cilindros.",
+    "status": "complete",
+    "value": {
+      "amount": 350000,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 350000,
+      "currency": "MXN"
+    },
+    "procurementMethod": "open",
+    "procurementMethodDetails": "Abierta – Para los proveedores registrados en el Padrón de Proveedores de la Administración Pública Estatal y que cuenten con la clave de suministro actualizada al 2019.",
+    "procurementMethodRationale": "Invitación Restringida a cuando menos Tres Proveedores.",
+    "mainProcurementCategory": "goods",
+    "additionalProcurementCategories": [
+      "goods"
+    ],
+    "awardCriteria": "qualityOnly",
+    "awardCriteriaDetails": "En la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.",
+    "submissionMethod": [
+      "electronicSubmission",
+      "inPerson"
+    ],
+    "tenderPeriod": {
+      "startDate": "2019-12-13T18:40:56Z",
+      "endDate": "2019-12-20T18:40:56Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2019-12-20T18:40:56Z",
+      "endDate": "2019-12-20T18:40:56Z"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "El Proveedor que reúna las condiciones legales, técnicas y económicas requeridas; y que cumpla con los requisitos solicitados conforme a lo dispuesto por la Ley de Adquisiciones, Arrendamientos y Prestación de Servicios, relacionados con Bienes Muebles e Inmuebles (SIC) del Estado de Michoacán de Ocampo y de cumplimiento del Anexo N° 1 de las Bases de Licitación.\r\nEn la evaluación de las proposiciones, se verificará que las mismas contengan de manera correcta la información, documentos y requisitos solicitados en las bases.\r\nSe aceptarán únicamente las propuestas de los licitantes que se ajusten a las especificaciones técnicas, cantidades, tiempos de entrega y demás condiciones establecidas en las bases y sus anexos; así como lo acordado en la junta de aclaraciones.\r\nUna vez hecha la evaluación de las proposiciones, el contrato se adjudicará por partida de entre los licitantes, a aquel cuya propuesta resulte solvente porque reúne la totalidad de las condiciones legales, técnicas y económicas requeridas por la convocante y garantice satisfactoriamente el cumplimiento de las obligaciones respectivas.\r\nSi resultare que dos o más proposiciones son solventes porque satisfacen la totalidad de los requerimientos solicitados por la convocante, el contrato se adjudicará a quien presente la proposición cuyo precio sea el más bajo.\r\nSi de la evaluación económica resultare empate en precio de dos o más proposiciones, en una misma o más partidas, la adjudicación se efectuará  preferentemente entre los proveedores radicados físicamente en el Estado y no  los hubiere se hará a favor del licitante que resulte ganador del sorteo que realice la convocante en el propio acto del fallo, el cual consistirá en depositar en una urna o recipiente transparente las boletas con el nombre de cada licitante empatado, acto seguido se extraerá en primer lugar la boleta del licitante ganador y posteriormente las demás boletas de los licitantes que resultaron empatados en esa partida, con lo cual de determinarán los subsecuentes lugares que ocuparan las proposiciones.  Si hubiera más partidas empatadas se llevará a cabo un sorteo por cada una de ellas, hasta concluir con la última.",
+    "awardPeriod": {
+      "startDate": "2019-12-30T18:40:56Z",
+      "endDate": "2019-12-30T18:40:56Z"
+    },
+    "numberOfTenderers": 0
+  },
+  "awards": [
+    {
+      "id": "17",
+      "title": "Adjudicación N° CADPE-EM-LPE-143/2019",
+      "description": "Se declaró desierta la licitación N° CADPE-EM-LPE-143/2019",
+      "status": "active",
+      "date": "2019-12-30T18:44:09Z",
+      "value": {
+        "amount": 320990,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "id": "AHU821206B38",
+          "name": "Automotores La Huerta, S.A. de C.V."
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "18",
+      "awardID": "17",
+      "title": "CONTRATO N° 147-19-10EXTRAORD-3SA-CADPE-1",
+      "description": "Un Vehículo, Modelo 2020 de 4 cilindros (Jetta A7, Trendline Std, 4 puertas)",
+      "status": "terminated",
+      "value": {
+        "amount": 320990,
+        "currency": "MXN"
+      },
+      "dateSigned": "2019-12-30T18:47:27Z",
+      "documents": [
+        {
+          "id": "18",
+          "documentType": "Contrato firmado",
+          "title": "Contrato núm. 147-19-10EXTRAORD-SA-CADPE-1",
+          "description": "Contrato de compraventa de compraventa por adjudicación directa mediante acuerdo.",
+          "url": "http://sistemaanticorrupcion.michoacan.gob.mx/public/documentos/SESEA-16-2023-09-25/contrato/Compra_de_vehiculo_147-19-10EXTRAORD-3SA-CADPE-1.pdf",
+          "datePublished": "2019-12-30T19:47:05Z",
+          "format": "pdf",
+          "language": "es"
+        }
+      ]
+    }
+  ]
+}]

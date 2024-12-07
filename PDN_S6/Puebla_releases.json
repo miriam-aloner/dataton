@@ -1,0 +1,805 @@
+[{
+  "_id": {
+    "$oid": "655649bdd4045998e86be20d"
+  },
+  "ocid": "ocds-mfttq3-SUM-SESEAP-DAF",
+  "id": "ocds-mfttq3-SUM-SESEAP-DAF.v1.tender",
+  "date": "2023-09-08T10:23:54-07:00",
+  "tag": [
+    "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+    {
+      "name": "Unidad de Servicios Tecnológicos y Plataforma Digital",
+      "id": "MX-RFC-USTPD",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "USTPD",
+        "legalName": "Secretaría Ejecutiva del Sistema Estatal Anticorrupción Puebla",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "4 Poniente 719",
+        "locality": " Puebla ",
+        "region": " Puebla ",
+        "postalCode": "72000",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Janeth  Bustamante Abdala",
+        "email": "plataformadigital.se@seapuebla.org.mx",
+        "telephone": "2229472130",
+        "url": "https://seseap.puebla.gob.mx/",
+        "type": "contactPoint",
+        "givenName": "Janeth ",
+        "patronymicName": "Bustamante",
+        "matronymicName": "Abdala"
+      },
+      "roles": [
+        "official",
+        "requestingUnit",
+        "contractingUnit",
+        "technicalUnit",
+        "responsibleUnit"
+      ],
+      "position": "Titular"
+    },
+    {
+      "name": "Dirección de Administración y Finanzas",
+      "id": "MX-RFC-DAF",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "DAF",
+        "legalName": "Secretaría Ejecutiva del Sistema Estatal Anticorrupción Puebla",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "4 Poniente 719",
+        "locality": "Puebla",
+        "region": "Puebla",
+        "postalCode": "72000",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Dante Arámburo Santillana",
+        "email": "administracion.se.se@seapuebla.org.mx",
+        "telephone": "2229472130",
+        "url": "https://seseap.puebla.gob.mx/",
+        "type": "contactPoint",
+        "givenName": "Dante",
+        "patronymicName": "Arámburo",
+        "matronymicName": "Santillana"
+      },
+      "roles": [
+        "official",
+        "requestingUnit",
+        "contractingUnit",
+        "technicalUnit",
+        "responsibleUnit",
+        "buyer"
+      ],
+      "position": "Titular"
+    },
+    {
+      "name": "GFDSYSTEMS, S.A. DE C.V.",
+      "id": "MX-RFC-GFD190307TYA",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "GFD190307TYA",
+        "legalName": "GFDSYSTEMS, S.A. DE C.V.",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "Avenida Juárez 2924 La Paz",
+        "locality": "Puebla",
+        "region": "Puebla",
+        "postalCode": "72160",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Fernando García Osorio",
+        "email": "fernando.garcia@gfdsystems.com.mx",
+        "telephone": "2222903496",
+        "type": "contactPoint",
+        "givenName": "Fernando",
+        "patronymicName": "García",
+        "matronymicName": "Osorio"
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "payee",
+        "attendee",
+        "invitedSupplier",
+        "issuingSupplier"
+      ],
+      "position": "Director General"
+    },
+    {
+      "name": "Consultores en Procesos e Ingenieria de Software, S.A. de C.V.",
+      "id": "MX-RFC-CPE120710BG0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "CPE120710BG0",
+        "legalName": "Consultores en Procesos e Ingenieria de Software, S.A. de C.V.",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "Adolfo López Mateos 131 A Texcacoac",
+        "locality": "Chihautempan",
+        "region": "Tlaxcala",
+        "postalCode": "90806",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Adriana López Tuxpan",
+        "email": "alopezt@consultoresenti.com.mx",
+        "telephone": "2461009541",
+        "type": "contactPoint",
+        "givenName": "Adriana",
+        "patronymicName": "López",
+        "matronymicName": "Tuxpan"
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "payee",
+        "attendee",
+        "invitedSupplier",
+        "issuingSupplier"
+      ],
+      "position": "Asesor comercial"
+    },
+    {
+      "name": "Cesar Machorro García",
+      "id": "MX-RFC-MAGC810830EY0",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "MAGC810830EY0",
+        "legalName": "Cesar Machorro García",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "9 Poniente 407 Santa Cruz Tlahuiloya",
+        "locality": " Puebla ",
+        "region": " Puebla ",
+        "postalCode": "75200",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Cesar Machorro García",
+        "email": "cesar_tpk@hotmail.com",
+        "telephone": "",
+        "type": "contactPoint",
+        "givenName": "Cesar",
+        "patronymicName": "Machorro",
+        "matronymicName": "García"
+      },
+      "roles": [
+        "supplier",
+        "tenderer",
+        "payee",
+        "attendee",
+        "invitedSupplier",
+        "issuingSupplier"
+      ],
+      "position": "Director General"
+    }
+  ],
+  "planning": {
+    "rationale": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL   SISTEMA ESTATAL ANTICORRUPCIÓN",
+    "hasQuotes": false,
+    "documents": [
+      {
+        "id": "doc-af61cbd1-9d11-4a46-a551-064e5ad2471c",
+        "documentType": "request",
+        "title": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN PUEBLA",
+        "description": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA EL BUEN DESEMPEÑO DE LAS OPERACIONES EN LAS DISTINTAS DIRECCIONES DE LA SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN PUEBLA",
+        "url": "https://seseap.puebla.gob.mx/",
+        "datePublished": "2023-05-16T11:10:51-07:00",
+        "dateModified": "2023-05-16T13:41:34-07:00",
+        "format": "PDF",
+        "language": "es"
+      }
+    ]
+  },
+  "tender": {
+    "id": "SUM-SESEAP-DAF",
+    "title": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL   SISTEMA ESTATAL ANTICORRUPCIÓN",
+    "description": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL   SISTEMA ESTATAL ANTICORRUPCIÓN",
+    "status": "planned",
+    "value": {
+      "amount": 117102,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 117102,
+      "currency": "MXN"
+    },
+    "procurementMethod": "limited",
+    "procurementMethodDetails": "Invitación a cuando menos tres personas",
+    "procurementMethodRationale": "Por el mejor precio",
+    "mainProcurementCategory": "services",
+    "additionalProcurementCategories": [
+      "services"
+    ],
+    "awardCriteria": "bestValueToGovernment",
+    "awardCriteriaDetails": "Sin detalles para el criterio de evaluación de proporciones",
+    "submissionMethod": [
+      "electronicSubmission"
+    ],
+    "submissionMethodDetails": "Se aceptan correos electrónicos, propuestas escritas o llamadas telefónicas",
+    "tenderPeriod": {
+      "startDate": "2023-06-27T11:13:56-07:00",
+      "endDate": "2023-07-05T11:13:56-07:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2023-06-27T11:13:56-07:00",
+      "endDate": "2023-07-05T11:13:56-07:00"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "Mejor costo",
+    "awardPeriod": {
+      "startDate": "2023-06-27T11:13:56-07:00",
+      "endDate": "2023-07-05T11:13:56-07:00"
+    },
+    "items": [
+      {
+        "id": "62905043",
+        "description": "LSOFTWARE-01 Adobe Photoshop de Adobe Systems ver. 24.5",
+        "quantity": 2,
+        "classification": {
+          "id": "62905043",
+          "description": "LSOFTWARE-01 Adobe Photoshop de Adobe Systems ver. 24.5"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905044",
+        "description": "LSOFTWARE-02 Adobe Ilustrator de Adobe Systems 2023 (versión 27.5)",
+        "quantity": 1,
+        "classification": {
+          "id": "62905044",
+          "description": "LSOFTWARE-02 Adobe Ilustrator de Adobe Systems 2023 (versión 27.5)"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905045",
+        "description": "LSOFTWARE-03 Adobe InDesign de Adobe Systems 2023 (versión 18.3)",
+        "quantity": 1,
+        "classification": {
+          "id": "62905045",
+          "description": "LSOFTWARE-03 Adobe InDesign de Adobe Systems 2023 (versión 18.3)"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905046",
+        "description": "LSOFTWARE-04 Adobe Acrobat Pro DC de Adobe Systems 2023 (versión 2023.001.20177)",
+        "quantity": 1,
+        "classification": {
+          "id": "62905046",
+          "description": "LSOFTWARE-04 Adobe Acrobat Pro DC de Adobe Systems 2023 (versión 2023.001.20177)"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905047",
+        "description": "LSOFTWARE-05 Canva Pro 2023 PRO",
+        "quantity": 1,
+        "classification": {
+          "id": "62905047",
+          "description": "LSOFTWARE-05 Canva Pro 2023 PRO"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905048",
+        "description": "LSOFTWARE-06 Zoom Pro de Zoom Video Comunications (versión Enterprise)",
+        "quantity": 1,
+        "classification": {
+          "id": "62905048",
+          "description": "LSOFTWARE-06 Zoom Pro de Zoom Video Comunications (versión Enterprise)"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905049",
+        "description": "LSOFTWARE-07 Licenciamiento de SurveyMonkey de Momentive",
+        "quantity": 1,
+        "classification": {
+          "id": "62905049",
+          "description": "LSOFTWARE-07 Licenciamiento de SurveyMonkey de Momentive"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      },
+      {
+        "id": "62905050",
+        "description": "LSOFTWARE-08 Licencia Fortiguard UTM Protection Bundle y servicio de soporte técnico forticare 24 x 7 para el equipo Fortigate 90E (Antivirus, Anti spam, Filtrado de contenido web, Sistema de prevención de intrusos (IPS), Filtrado E-mail, Control de aplicaciones)",
+        "quantity": 1,
+        "classification": {
+          "id": "62905050",
+          "description": "LSOFTWARE-08 Licencia Fortiguard UTM Protection Bundle y servicio de soporte técnico forticare 24 x 7 para el equipo Fortigate 90E (Antivirus, Anti spam, Filtrado de contenido web, Sistema de prevención de intrusos (IPS), Filtrado E-mail, Control de aplicaciones)"
+        },
+        "unit": {
+          "name": "Licencia"
+        }
+      }
+    ],
+    "invitedSuppliers": [
+      {
+        "name": "GFDSYSTEMS, S.A. DE C.V.",
+        "id": "MX-RFC-GFD190307TYA"
+      },
+      {
+        "name": "Consultores en Procesos e Ingenieria de Software, S.A. de C.V.",
+        "id": "MX-RFC-CPE120710BG0"
+      },
+      {
+        "name": "Cesar  Machorro García",
+        "id": "MX-RFC-IMA150429F31"
+      }
+    ],
+    "numberOfTenderers": 3,
+    "tenderers": [
+      {
+        "name": "GFDSYSTEMS, S.A. DE C.V.",
+        "id": "MX-RFC-GFD190307TYA",
+        "items": [
+          {
+            "id": "LSOFTWARE-01",
+            "name": "Licencia",
+            "amount": 10050,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-02",
+            "name": "Licencia",
+            "amount": 10050,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-03",
+            "name": "Licencia",
+            "amount": 10050,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-04",
+            "name": "Licencia",
+            "amount": 4300,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-05",
+            "name": "Licencia",
+            "amount": 2650,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-06",
+            "name": "Licencia",
+            "amount": 15600,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-07",
+            "name": "Licencia",
+            "amount": 14200,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-08",
+            "name": "Licencia",
+            "amount": 24000,
+            "currency": "MXN"
+          }
+        ]
+      },
+      {
+        "name": "Consultores en Procesos e Ingenieria de Software, S.A. de C.V.",
+        "id": "MX-RFC-CPE120710BG0",
+        "items": [
+          {
+            "id": "LSOFTWARE-01",
+            "name": "Licencia",
+            "amount": 23368.8,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-02",
+            "name": "Licencia",
+            "amount": 11684.4,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-03",
+            "name": "Licencia",
+            "amount": 11684.4,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-04",
+            "name": "Licencia",
+            "amount": 7784.4,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-05",
+            "name": "Licencia",
+            "amount": 2470,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-06",
+            "name": "Licencia",
+            "amount": 2572.7,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-07",
+            "name": "Licencia",
+            "amount": 3315,
+            "currency": "MXN"
+          }
+        ]
+      },
+      {
+        "name": "Cesar  Machorro García",
+        "id": "MX-RFC-IMA150429F31",
+        "items": [
+          {
+            "id": "LSOFTWARE-01",
+            "name": "Licencia",
+            "amount": 2499,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-02",
+            "name": "Licencia",
+            "amount": 7999,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-03",
+            "name": "Licencia",
+            "amount": 7999,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-04",
+            "name": "Licencia",
+            "amount": 4500,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-05",
+            "name": "Licencia",
+            "amount": 2209,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-06",
+            "name": "Licencia",
+            "amount": 8999,
+            "currency": "MXN"
+          },
+          {
+            "id": "LSOFTWARE-07",
+            "name": "Licencia",
+            "amount": 15200,
+            "currency": "MXN"
+          }
+        ]
+      }
+    ]
+  },
+  "buyer": {
+    "id": "001-SESEAP",
+    "name": "SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN PUEBLA"
+  },
+  "awards": [
+    {
+      "contractPeriod": {
+        "endDate": "2020-07-10T11:12:00Z",
+        "startDate": "2020-12-31T01:02:00Z"
+      },
+      "status": "active",
+      "description": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL   SISTEMA ESTATAL ANTICORRUPCIÓN",
+      "id": 12,
+      "items": [
+        {
+          "classification": {
+            "description": "LSOFTWARE-01 Adobe Photoshop de Adobe Systems 2023 (versión 24.5)",
+            "id": "62905043"
+          },
+          "description": "LSOFTWARE-01 Adobe Photoshop de Adobe Systems 2023 (versión 24.5)",
+          "id": "12050",
+          "quantity": 2,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-02 Adobe Ilustrator de Adobe Systems 2023 (versión 27.5)",
+            "id": "12051"
+          },
+          "description": "LSOFTWARE-02 Adobe Ilustrator de Adobe Systems 2023 (versión 27.5)",
+          "id": "62905044",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-03 Adobe InDesign de Adobe Systems 2023 (versión 18.3)",
+            "id": "12052"
+          },
+          "description": "LSOFTWARE-03 Adobe InDesign de Adobe Systems 2023 (versión 18.3)",
+          "id": "62905045",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-04 Adobe Acrobat Pro DC de Adobe Systems 2023 (versión 2023.001.20177)",
+            "id": "12053"
+          },
+          "description": "LSOFTWARE-04 Adobe Acrobat Pro DC de Adobe Systems 2023 (versión 2023.001.20177)",
+          "id": "62905046",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 4300,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-05 Canva Pro 2023 PRO",
+            "id": "12054"
+          },
+          "description": "LSOFTWARE-05 Canva Pro 2023 PRO",
+          "id": "62905047",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 2650,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-06 Zoom Pro de Zoom Video Comunications (versión Enterprise)",
+            "id": "12055"
+          },
+          "description": "LSOFTWARE-06 Zoom Pro de Zoom Video Comunications (versión Enterprise)",
+          "id": "62905048",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 15600,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-07 Licenciamiento de SurveyMonkey de Momentive",
+            "id": "12056"
+          },
+          "description": "LSOFTWARE-07 Licenciamiento de SurveyMonkey de Momentive",
+          "id": "62905049",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 14200,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "classification": {
+            "description": "LSOFTWARE-08 Licencia Fortiguard UTM Protection Bundle y servicio de soporte técnico forticare 24 x 7 para el equipo Fortigate 90E (Antivirus, Anti spam, Filtrado de contenido web, Sistema de prevención de intrusos (IPS), Filtrado E-mail, Control de aplicaciones)",
+            "id": "12057"
+          },
+          "description": "LSOFTWARE-08 Licencia Fortiguard UTM Protection Bundle y servicio de soporte técnico forticare 24 x 7 para el equipo Fortigate 90E (Antivirus, Anti spam, Filtrado de contenido web, Sistema de prevención de intrusos (IPS), Filtrado E-mail, Control de aplicaciones)",
+          "id": "62905050",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 24000,
+              "currency": "MXN"
+            }
+          }
+        }
+      ],
+      "suppliers": [
+        {
+          "id": "MX-RFC-GFD190307TYA",
+          "name": "GFDSYSTEMS, S.A. DE C.V."
+        }
+      ],
+      "title": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN",
+      "value": {
+        "amount": 117102,
+        "currency": "MXN"
+      }
+    }
+  ],
+  "contracts": [
+    {
+      "id": 7,
+      "awardID": 12,
+      "dateSigned": "2023-07-10T00:00:00Z",
+      "frameworkAgreementRequisitionNumber": "2023-07-100-00000011",
+      "status": "terminated",
+      "items": [
+        {
+          "id": "62905043",
+          "description": "LSOFTWARE-01 Adobe Photoshop de Adobe Systems 2023 (versión 24.5)",
+          "quantity": 2,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905044",
+          "description": "LSOFTWARE-02 Adobe Ilustrator de Adobe Systems 2023 (versión 27.5)",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905045",
+          "description": "LSOFTWARE-03 Adobe InDesign de Adobe Systems 2023 (versión 18.3)",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 10050,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905046",
+          "description": "LSOFTWARE-04 Adobe Acrobat Pro DC de Adobe Systems 2023 (versión 2023.001.20177)",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 4300,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905047",
+          "description": "LSOFTWARE-05 Canva Pro 2023 PRO",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 2650,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905048",
+          "description": "LSOFTWARE-06 Zoom Pro de Zoom Video Comunications (versión Enterprise)",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 15600,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905049",
+          "description": "LSOFTWARE-07 Licenciamiento de SurveyMonkey de Momentive",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 14200,
+              "currency": "MXN"
+            }
+          }
+        },
+        {
+          "id": "62905050",
+          "description": "LSOFTWARE-08 Licencia Fortiguard UTM Protection Bundle y servicio de soporte técnico forticare 24 x 7 para el equipo Fortigate 90E (Antivirus, Anti spam, Filtrado de contenido web, Sistema de prevención de intrusos (IPS), Filtrado E-mail, Control de aplicaciones)",
+          "quantity": 1,
+          "unit": {
+            "name": "Licencia",
+            "value": {
+              "amount": 24000,
+              "currency": "MXN"
+            }
+          }
+        }
+      ],
+      "title": "CONTRATO PARA LA ADQUISICIÓN  DE LICENCIAS INFORMÁTICAS PARA LA SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN",
+      "value": {
+        "amount": 117102,
+        "currency": "MXN"
+      }
+    }
+  ],
+  "implementation": {
+    "transactions": [
+      {
+        "id": "transaction-1",
+        "value": {
+          "amount": 117102,
+          "currency": "MXN"
+        },
+        "payer": {
+          "name": "SECRETARÍA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCIÓN",
+          "identifier": {
+            "id": "MX-RFC-SAE180123N64"
+          }
+        },
+        "payee": {
+          "name": "GFDSYSTEMS, S.A. DE C.V.",
+          "identifier": {
+            "id": "MX-RFC-GFD190307TYA"
+          }
+        }
+      }
+    ]
+  },
+  "language": "es"
+}]

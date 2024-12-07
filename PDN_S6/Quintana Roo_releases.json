@@ -1,0 +1,634 @@
+[{
+  "_id": {
+    "$oid": "63e691b88bf9326a14bff68b"
+  },
+  "ocid": "ocds-ukyxzh-PADPE-01-2022",
+  "id": "ocds-ukyxzh-PADPE-01-2022.v50.tender",
+  "date": "2023-02-08T10:55:10-05:00",
+  "tag": [
+    "tender"
+  ],
+  "initiationType": "tender",
+  "buyer": {
+    "name": "Dirección de Administración y Finanzas",
+    "id": "MX-RFC-SES170719V79",
+    "identifier": {
+      "scheme": "MX-RFC",
+      "id": "SES170719V79",
+      "legalName": "Secretaria Ejecutiva del Sistema Anticorrupción del Estado de Quintana Roo",
+      "legalPersonality": "legalPerson"
+    },
+    "address": {
+      "streetAddress": "Bugambilias No. 438",
+      "locality": " Othón P. Blanco ",
+      "region": " Quintana Roo ",
+      "postalCode": "77036",
+      "countryName": "México"
+    },
+    "contactPoint": {
+      "name": "Mtro. Fredie Edmundo Gómez Hernández",
+      "email": "frediegomez1@hotmail.com",
+      "telephone": "9831010488",
+      "url": "https://sesaeqroo.gob.mx/",
+      "type": "contactPoint",
+      "givenName": "Mtro. Fredie Edmundo",
+      "patronymicName": "Gómez",
+      "matronymicName": "Hernández"
+    },
+    "roles": [
+      "payer",
+      "contractingUnit",
+      "responsibleUnit"
+    ],
+    "position": "Director de Administración y Finanzas"
+  },
+  "parties": [
+    {
+      "name": "Mtro. Raúl Cazares Urban",
+      "id": "MX-RFC-Requirente",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Requirente",
+        "legalPersonality": "naturalPerson",
+        "givenName": "Raúl",
+        "patronymicName": "Cazares",
+        "matronymicName": "Urban"
+      },
+      "address": {
+        "streetAddress": "Retorno 4 420",
+        "locality": " Othón P. Blanco ",
+        "region": " Quintana Roo ",
+        "postalCode": "77030",
+        "countryName": "México"
+      },
+      "roles": [
+        "requestingUnit"
+      ],
+      "position": "Presidente del Comité de Participación Ciudadana"
+    },
+    {
+      "name": "Dirección de Administración y Finanzas",
+      "id": "MX-RFC-SES170719V79",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "SES170719V79",
+        "legalName": "Secretaria Ejecutiva del Sistema Anticorrupción del Estado de Quintana Roo",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "Bugambilias No. 438",
+        "locality": " Othón P. Blanco ",
+        "region": " Quintana Roo ",
+        "postalCode": "77036",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Mtro. Fredie Edmundo Gómez Hernández",
+        "email": "frediegomez1@hotmail.com",
+        "telephone": "9831010488",
+        "url": "https://sesaeqroo.gob.mx/",
+        "type": "contactPoint",
+        "givenName": "Mtro. Fredie Edmundo",
+        "patronymicName": "Gómez",
+        "matronymicName": "Hernández"
+      },
+      "roles": [
+        "payer",
+        "contractingUnit",
+        "responsibleUnit"
+      ],
+      "position": "Director de Administración y Finanzas"
+    },
+    {
+      "name": "Mtro. Jaime Hugo Talancon Martínez",
+      "id": "MX-RFC-Propuesta 1",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Propuesta 1",
+        "legalPersonality": "naturalPerson",
+        "givenName": "Jaime Hugo",
+        "patronymicName": "Talancon",
+        "matronymicName": "Martínez"
+      },
+      "address": {
+        "streetAddress": "Cordoba 48",
+        "locality": " Cuauhtémoc ",
+        "region": " Ciudad de México ",
+        "postalCode": "06700",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Mtro. Jaime Hugo Talancon Martínez",
+        "email": "talancon.jaime@gmail.com",
+        "telephone": "5515102084",
+        "type": "contactPoint",
+        "givenName": "Mtro. Jaime Hugo",
+        "patronymicName": "Talancon",
+        "matronymicName": "Martínez"
+      },
+      "roles": [
+        "invitedSupplier"
+      ],
+      "position": "Coordinador de Proyecto"
+    },
+    {
+      "name": "Mtro. Oscar Francisco Ortega Ramírez",
+      "id": "MX-RFC-Propuesta 2",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Propuesta 2",
+        "legalPersonality": "naturalPerson",
+        "givenName": "Oscar Francisco",
+        "patronymicName": "Ortega",
+        "matronymicName": "Ramírez"
+      },
+      "address": {
+        "streetAddress": "Corcel 130",
+        "locality": " León ",
+        "region": " Guanajuato ",
+        "postalCode": "37109",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Mtro. Oscar Francisco Ortega Ramírez",
+        "email": "oscarfc777@hotmail.com",
+        "telephone": "4773934979",
+        "type": "contactPoint",
+        "givenName": "Mtro. Oscar Francisco",
+        "patronymicName": "Ortega",
+        "matronymicName": "Ramírez"
+      },
+      "roles": [
+        "invitedSupplier"
+      ],
+      "position": "Consultor Asociado"
+    },
+    {
+      "name": "Dr. Fernando Nieto Morales",
+      "id": "MX-RFC-Propuesta 3",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Propuesta 3",
+        "legalName": "BROCOLI CONSULTORES SC",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "Lago Zurich 245",
+        "locality": " Miguel Hidalgo ",
+        "region": " Ciudad de México ",
+        "postalCode": "11520",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Dr. Fernando Nieto Morales",
+        "email": "contacto@brocoli.mx",
+        "url": "https://www.brocoli.mx/",
+        "type": "attorney",
+        "givenName": "Dr. Fernando",
+        "patronymicName": "Nieto",
+        "matronymicName": "Morales"
+      },
+      "roles": [
+        "supplier",
+        "payee",
+        "invitedSupplier"
+      ],
+      "position": "Representante legal de Brocoli Consultores SC"
+    },
+    {
+      "name": "Luis Abel Pimentel Escalante",
+      "id": "MX-RFC-Seguros y Finanzas",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "Seguros y Finanzas",
+        "legalName": "SOFIMEX",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "Adolfo López Mateos No. 1941",
+        "locality": "- Seleccionar -",
+        "region": " Ciudad de México ",
+        "postalCode": "01010",
+        "countryName": "México"
+      },
+      "contactPoint": {
+        "name": "Luis Abel Pimentel Escalante",
+        "telephone": "5554802500",
+        "faxNumber": "54802500",
+        "url": "https://www.sofimex.mx",
+        "type": "contactPoint",
+        "givenName": "Luis Abel",
+        "patronymicName": "Pimentel",
+        "matronymicName": "Escalante"
+      },
+      "roles": [
+        "guarantor"
+      ],
+      "position": "Gerente de Oficina"
+    },
+    {
+      "name": "SEFIPLAN",
+      "id": "MX-RFC-SEFIPLAN",
+      "identifier": {
+        "scheme": "MX-RFC",
+        "id": "SEFIPLAN",
+        "legalName": "Secretaria de Finanzas y Planeación",
+        "legalPersonality": "legalPerson"
+      },
+      "address": {
+        "streetAddress": "22 de Enero No. 001",
+        "locality": " Othón P. Blanco ",
+        "region": " Quintana Roo ",
+        "postalCode": "77000",
+        "countryName": "México"
+      },
+      "roles": [
+        "payer"
+      ],
+      "position": "Administrador de las Finanzas pÚBLICAS"
+    }
+  ],
+  "planning": {
+    "rationale": "De conformidad con los descrito en la prioridad 4, Línea de acción 4.2 del Programa de Implementación de la Política Anticorrupción del Estado de Quintana Roo, se pretende implementar mecanismos de justicia abierta que fortalezcan las acciones de combate a la corrupción por parte de las instituciones responsables de procurar e impartir justicia y órganos que coadyuvan en el acceso a la justicia y protegen los derechos humanos, y la ciudadanía.",
+    "hasQuotes": true,
+    "requestingUnits": [
+      {
+        "id": "MX-RFC-Requirente",
+        "name": "Mtro. Raúl Cazares Urban"
+      }
+    ],
+    "contractingUnits": [
+      {
+        "id": "MX-RFC-SES170719V79",
+        "name": "Dirección de Administración y Finanzas"
+      }
+    ],
+    "responsibleUnits": [
+      {
+        "id": "MX-RFC-SES170719V79",
+        "name": "Dirección de Administración y Finanzas"
+      }
+    ],
+    "budget": {
+      "budgetBreakdown": [
+        {
+          "period": {
+            "startDate": "2022-01-01T00:00:00-05:00",
+            "endDate": "2022-12-31T00:00:00-05:00"
+          },
+          "description": "El origen del recurso corresponde a las participaciones generales",
+          "amount": {
+            "amount": 0,
+            "currency": "MXN"
+          },
+          "origin": "Federales",
+          "fundType": "FONDO GENERAL DE PARTICIPACIONES",
+          "sourceParty": {
+            "name": "SEFIPLAN",
+            "id": "MX-RFC-SEFIPLAN"
+          }
+        }
+      ]
+    },
+    "requestsForQuotes": [
+      {
+        "id": "request-f3172651-6228-46b7-a6d7-d5fab0abed0d",
+        "title": "Invitación a participar en el proceso de adjudicación directa",
+        "description": "Oficio que se le envía al posible proveedor para que este envíe una propuesta técnica y económica, que se ajuste a las características de los términos de referencia anexos al oficio, y así en la 2ª sesión extraordinaria se analice.",
+        "period": {
+          "startDate": "2022-07-05T10:12:15-05:00",
+          "endDate": "2022-07-13T10:12:15-05:00"
+        },
+        "items": [
+          {
+            "id": "3300",
+            "quantity": 1,
+            "classification": {
+              "id": "3300",
+              "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "Dr. Fernando Nieto Morales",
+            "id": "MX-RFC-Propuesta 3"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-2220dab4-b77f-4f37-96ae-c628dee61e37",
+            "description": "Propuesta técnica y económica donde se detallan los procesos que el proveedor llevara a cabo para cumplir con lo especificado en la ficha técnica del proyecto al que fue invitado.",
+            "date": "2022-07-11T11:39:54-05:00",
+            "items": [
+              {
+                "id": "3300",
+                "classification": {
+                  "id": "3300",
+                  "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+                },
+                "unit": {
+                  "value": {
+                    "amount": 1141633.33
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 1141633.33
+            },
+            "period": {
+              "startDate": "2022-07-05T11:40:13-05:00",
+              "endDate": "2022-07-13T11:40:13-05:00"
+            },
+            "issuingSupplier": {
+              "name": "Dr. Fernando Nieto Morales",
+              "id": "MX-RFC-Propuesta 3"
+            }
+          }
+        ]
+      },
+      {
+        "id": "request-52001764-52df-452a-be6f-9c90d36a3c1a",
+        "title": "Invitación a participar en el proceso de adjudicación directa",
+        "description": "Oficio que se le envía al posible proveedor para que este envíe una propuesta técnica y económica, que se ajuste a las características de los términos de referencia anexos al oficio, y así en la 2ª sesión extraordinaria se analice.",
+        "period": {
+          "startDate": "2022-07-05T10:16:53-05:00",
+          "endDate": "2022-07-13T10:16:53-05:00"
+        },
+        "items": [
+          {
+            "id": "3300",
+            "quantity": 1,
+            "classification": {
+              "id": "3300",
+              "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "Mtro. Jaime Hugo Talancon Martínez",
+            "id": "MX-RFC-Propuesta 1"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-9fed0b94-89e3-4b13-9e47-48a9e5d0e4ff",
+            "description": "Propuesta técnica y económica donde se detallan los procesos que el proveedor llevara a cabo para cumplir con lo especificado en la ficha técnica del proyecto al que fue invitado.",
+            "date": "2022-07-11T11:19:54-05:00",
+            "items": [
+              {
+                "id": "3300",
+                "classification": {
+                  "id": "3300",
+                  "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+                },
+                "unit": {
+                  "value": {
+                    "amount": 1056806
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 1056806
+            },
+            "period": {
+              "startDate": "2022-07-05T11:31:18-05:00",
+              "endDate": "2022-07-13T11:31:18-05:00"
+            },
+            "issuingSupplier": {
+              "name": "Mtro. Jaime Hugo Talancon Martínez",
+              "id": "MX-RFC-Propuesta 1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "request-8057c23e-177a-45d3-a387-fcd01d0b304a",
+        "title": "Invitación a participar en el proceso de adjudicación directa",
+        "description": "Oficio que se le envía al posible proveedor para que este envíe una propuesta técnica y económica, que se ajuste a las características de los términos de referencia anexos al oficio, y así en la 2ª sesión extraordinaria se analice.",
+        "period": {
+          "startDate": "2022-07-05T10:18:03-05:00",
+          "endDate": "2022-07-13T10:18:03-05:00"
+        },
+        "items": [
+          {
+            "id": "3300",
+            "quantity": 1,
+            "classification": {
+              "id": "3300",
+              "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+            }
+          }
+        ],
+        "invitedSuppliers": [
+          {
+            "name": "Mtro. Oscar Francisco Ortega Ramírez",
+            "id": "MX-RFC-Propuesta 2"
+          }
+        ],
+        "quotes": [
+          {
+            "id": "quote-608182a8-f850-4e0f-b181-e145196f1782",
+            "description": "Propuesta técnica y económica donde se detallan los procesos que el proveedor llevara a cabo para cumplir con lo especificado en la ficha técnica del proyecto al que fue invitado.",
+            "date": "2022-07-11T12:02:11-05:00",
+            "items": [
+              {
+                "id": "3300",
+                "classification": {
+                  "id": "3300",
+                  "description": "Servicios profesionales, cientificos, tecnicos y otros servicios"
+                },
+                "unit": {
+                  "value": {
+                    "amount": 891660
+                  }
+                }
+              }
+            ],
+            "value": {
+              "amount": 891660
+            },
+            "period": {
+              "startDate": "2022-07-05T12:35:18-05:00",
+              "endDate": "2022-07-13T12:35:18-05:00"
+            },
+            "issuingSupplier": {
+              "name": "Mtro. Oscar Francisco Ortega Ramírez",
+              "id": "MX-RFC-Propuesta 2"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "tender": {
+    "id": "PADPE/01/2022",
+    "title": "Contratación para la elaboración de la Política de Justica Abierta",
+    "description": "Elaboración de una Política de Justicia Abierta para el Estado de Quintana Roo, con la finalidad de reestructurar la relación que existe entre el gobierno y la ciudadanía, favoreciendo así a la transparencia, mejorando la participación de la ciudadanía y la colaboración con los entes públicos.",
+    "status": "complete",
+    "value": {
+      "amount": 1300000,
+      "currency": "MXN"
+    },
+    "minValue": {
+      "amount": 244000,
+      "currency": "MXN"
+    },
+    "procurementMethod": "direct",
+    "procurementMethodDetails": "Adjudicación directa",
+    "procurementMethodRationale": "Se aprobó por unanimidad de votos de los y las integrantes del comité de adquisiciones de la SESAEQROO, el procedimiento de adjudicación directa por excepción del Artículo 33 fracción I de la Ley de Adquisiciones, Arrendamiento y Prestación de Servicios relacionados con Bienes muebles de la Secretaria Ejecutiva del Sistema Anticorrupción del Estado de Quintana Roo.",
+    "mainProcurementCategory": "services",
+    "additionalProcurementCategories": [
+      "services"
+    ],
+    "awardCriteria": "bestValueToGovernment",
+    "awardCriteriaDetails": "Documentación, Perfil del prestador del servicio, Oferta técnica y Oferta económica.",
+    "submissionMethod": [
+      "electronicSubmission"
+    ],
+    "submissionMethodDetails": "Recepción a través del correo electrónico de contacto",
+    "tenderPeriod": {
+      "startDate": "2022-07-05T17:06:27-05:00",
+      "endDate": "2022-07-13T17:06:37-05:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2022-07-21T17:14:05-05:00",
+      "endDate": "2022-07-29T17:14:25-05:00"
+    },
+    "hasEnquiries": false,
+    "eligibilityCriteria": "Documentación, Perfil del prestador del servicio, Oferta técnica y Oferta económica.",
+    "awardPeriod": {
+      "startDate": "2022-08-01T17:15:29-05:00",
+      "endDate": "2022-08-10T17:15:46-05:00"
+    },
+    "numberOfTenderers": 0
+  },
+  "awards": [
+    {
+      "id": "PADPE/01/2022",
+      "title": "Elaboración de la Política de Justicia Abierta",
+      "description": "Elaboración de una Política de Justicia Abierta para el Estado de Quintana Roo, con la finalidad de reestructurar la relación que existe entre el gobierno y la ciudadanía, favoreciendo así a la transparencia, mejorando la participación de la ciudadanía y la colaboración con los entes públicos.",
+      "status": "active",
+      "date": "2022-08-10T00:00:00-05:00",
+      "value": {
+        "netAmount": 984166.67,
+        "amount": 1141633.33,
+        "currency": "MXN"
+      },
+      "suppliers": [
+        {
+          "name": "Dr. Fernando Nieto Morales",
+          "id": "MX-RFC-Propuesta 3"
+        }
+      ],
+      "contractPeriod": {
+        "startDate": "2022-08-10T00:00:00-05:00",
+        "endDate": "2022-12-31T00:00:00-05:00"
+      },
+      "rationale": "Adjudicación al proveedor que mejor cumple con las especificaciones que se detallan en la ficha técnica, basado de igual forma en el expediente del mismo, así como en el prestigio y experiencia del prestador del servicio y su equipo de trabajo."
+    }
+  ],
+  "contracts": [
+    {
+      "id": "SESAEQROO/PADPE/01/2022",
+      "awardID": "PADPE/01/2022",
+      "title": " Contrato de prestación de servicios profesionales para la Política de Justicia Abierta.",
+      "description": "Prestar el servicio de elaboración del documento que contenga la Política de Justicia Abierta, conforme a las especificaciones y alcances que se establecen en el contrato y en los términos de referencia.",
+      "status": "active",
+      "period": {
+        "startDate": "2022-08-10T00:00:00-05:00",
+        "endDate": "2022-12-31T00:00:00-05:00"
+      },
+      "value": {
+        "netAmount": 984166.67,
+        "amount": 1141633.33,
+        "currency": "MXN",
+        "exchangeRates": [
+          {
+            "currency": "MXN"
+          }
+        ]
+      },
+      "dateSigned": "2022-08-10T00:00:00-05:00",
+      "documents": [
+        {
+          "id": "doc-e2b69acf-0c0a-4313-968b-75c0cc647b2a",
+          "documentType": "contractArrangements",
+          "title": " Contrato de prestación de servicios profesionales para la Política de Justicia Abierta.",
+          "description": "Contrato de prestación de servicios profesionales, en el que se detallan las especificaciones y alcances para la elaboración de la Política de Justicia Abierta",
+          "url": "https://drive.google.com/file/d/1h0YUG7znKnGbe9re9qBCjSd2JH0ZKgD9/view",
+          "format": "PDF",
+          "language": "Spanish; Castilian"
+        }
+      ],
+      "implementation": {
+        "status": "ongoing",
+        "transactions": [
+          {
+            "id": "transaction-4ffbaf7a-0555-4d7b-8132-68eb8fec59b1",
+            "date": "2022-12-01T02:49:44-05:00",
+            "value": {
+              "netAmount": 196833.33,
+              "amount": 228326.66,
+              "currency": "MXN"
+            },
+            "payer": {
+              "name": "Dirección de Administración y Finanzas",
+              "id": "MX-RFC-SES170719V79"
+            },
+            "payee": {
+              "name": "Dr. Fernando Nieto Morales",
+              "id": "MX-RFC-Propuesta 3"
+            },
+            "paymentMethod": "wireTransfe"
+          },
+          {
+            "id": "transaction-436f291b-398a-43aa-a5e5-7aa1500fda5d",
+            "date": "2022-08-26T02:54:16-05:00",
+            "value": {
+              "netAmount": 492083.34,
+              "amount": 570816.67,
+              "currency": "MXN"
+            },
+            "payer": {
+              "name": "Dirección de Administración y Finanzas",
+              "id": "MX-RFC-SES170719V79"
+            },
+            "payee": {
+              "name": "Dr. Fernando Nieto Morales",
+              "id": "MX-RFC-Propuesta 3"
+            },
+            "paymentMethod": "wireTransfe"
+          }
+        ]
+      },
+      "surveillanceMechanisms": [
+        "internalControlUnit"
+      ],
+      "guarantees": [
+        {
+          "id": "guarantee-faac6d6b-b47a-458c-9ece-a7181705d8b2",
+          "type": "bail",
+          "date": "2022-08-10T00:00:00-05:00",
+          "obligations": "fulfillment",
+          "value": {
+            "amount": 114163.33,
+            "currency": "MXN"
+          },
+          "guarantor": {
+            "name": "Luis Abel Pimentel Escalante",
+            "id": "MX-RFC-Seguros y Finanzas"
+          },
+          "period": {
+            "startDate": "2022-08-10T00:00:00-05:00",
+            "endDate": "2022-12-31T00:00:00-05:00"
+          }
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}]
