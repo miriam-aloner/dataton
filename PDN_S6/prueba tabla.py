@@ -4,45 +4,40 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 from dash import dash_table
+import gradio as gr
 
 
 # Cargar el DataFrame (asegúrate de tener los datos correctamente cargados en 'df')
 path =r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\df_data.csv'
 df = pd.read_csv(path)
 #________________________________________________________________________________________________________
-tabla_rename={'tender.id':'Número de licitación',
-'tender.description': 'Descripción del proyecto',
-"tender.procuringEntity.name": 'Nombre de Contratante',
-"tender.value.amount": 'Valor del proyecto',
-"tender.value.currency": 'Moneda',
-"tender.procurementMethod": 'Tipo de licitación',
-"tender.additionalProcurementCategories[0]": 'Categoría de mercado'}
-
-df = df.rename(columns=tabla_rename)
-
-columns_to_display = ["id",'Número de licitación','Descripción del proyecto','Nombre de Contratante','Valor del proyecto',
-                      'Moneda','Tipo de licitación','Categoría de mercado']
 # Definir las columnas a mostrar en la tabla
-#columns_to_display = ["id","tender.id", "tender.description","tender.procuringEntity.name", "tender.value.amount","tender.value.currency", "tender.procurementMethod", "tender.additionalProcurementCategories[0]"]
+columns_to_display = [
+    "id", "initiationType", "date", "tag[0]", "tender.id", "tender.title", "tender.description",
+    "tender.status", "tender.procuringEntity.name", "tender.procuringEntity.id", "tender.value.amount",
+    "tender.value.currency", "tender.minValue.amount", "tender.minValue.currency",
+    "tender.procurementMethod", "tender.procurementMethodDetails", "tender.procurementMethodRationale",
+    "tender.mainProcurementCategory", "tender.additionalProcurementCategories[0]",
+    "tender.awardCriteria", "tender.awardCriteriaDetails"
+]
 
 # Filtrar las columnas en el DataFrame
 filtered_df = df[columns_to_display]
 
 #Definir el diccionario de renombrado grafico de barras
 rename_dict = {
-    'awards[0].title': 'Adjudicación',
-    'planning.documents[0].title': 'Planeación',
-    'tender.title': 'Licitación',
-    'tender.documents[0].title': 'Aclaraciones',
-    'contracts[0].title':'Contratación',
-    }
+    'awards[0].title': 'awards',
+    'planning.documents[0].title': 'planning',
+    'tender.title': 'tender',
+    'tender.documents[0].title': 'documents',
+    'contracts[0].title': 'contracts'
+}
 
 # Renombrar las columnas
 df = df.rename(columns=rename_dict)
-#filtered_df = filtered_df.rename(columns=rename_dict)
 
 # Especificar las columnas de interés con los nuevos nombres
-columns_of_interest = ['Adjudicación', 'Planeación', 'Licitación', 'Aclaraciones', 'Contratación']
+columns_of_interest = ['awards', 'planning', 'tender', 'documents', 'contracts']
 
 # Preparar datos de indicadores de 'flag' KPIS
 df['flag.planning'] = df['flag.planning'].fillna(0)
@@ -67,7 +62,7 @@ app = dash.Dash(__name__)
 # Layout de la aplicación
 app.layout = html.Div([
 
-    html.H1("CONOCE | Transparencia en Acción: Explorando las Contrataciones Públicas", style={'textAlign': 'left', 'color': 'white'}),
+    html.H1("DATATON 2024 | AS14", style={'textAlign': 'left', 'color': 'white'}),
 
     # Filtros
     html.Div(
@@ -77,25 +72,25 @@ app.layout = html.Div([
                 id='filter-id',
                 options=[{'label': str(id), 'value': str(id)} for id in df['id'].dropna().unique()],
                 placeholder='Seleccionar ID',
-                style={'width': '270px', 'margin-right': '10px'}
+                style={'width': '200px', 'margin-right': '10px'}
             ),
             dcc.Dropdown(
                 id='filter-tender-id',
-                options=[{'label': str(tid), 'value': str(tid)} for tid in df['Número de licitación'].dropna().unique()],
-                placeholder='Seleccionar el Número de licitación',
-                style={'width': '270px', 'margin-right': '10px'}
+                options=[{'label': str(tid), 'value': str(tid)} for tid in df['tender.id'].dropna().unique()],
+                placeholder='Seleccionar Tender ID',
+                style={'width': '200px', 'margin-right': '10px'}
             ),
             dcc.Dropdown(
                 id='filter-state',
                 options=[{'label': state, 'value': state} for state in df['state'].dropna().unique()],
                 placeholder='Seleccionar Estado',
-                style={'width': '270px', 'margin-right': '10px'}
+                style={'width': '200px', 'margin-right': '10px'}
             ),
             dcc.Dropdown(
                 id='filter-year',
                 options=[{'label': year, 'value': year} for year in df['year'].dropna().unique()],
                 placeholder='Seleccionar Año',
-                style={'width': '270px'}
+                style={'width': '200px'}
             )
         ]
     ),
@@ -103,20 +98,20 @@ app.layout = html.Div([
     html.Div(
         style={'display': 'flex', 'justify-content': 'space-between', 'margin-bottom': '20px', 'color': 'white'},
         children=[
-            html.Div([html.H4("Planeación", style={'textAlign': 'center'}), html.H2(id='indicator-planning', style={'textAlign': 'center'})]),
-            html.Div([html.H4("Aclaraciones", style={'textAlign': 'center'}), html.H2(id='indicator-datetender', style={'textAlign': 'center'})]),
-            html.Div([html.H4("Adjudicación", style={'textAlign': 'center'}), html.H2(id='indicator-tender', style={'textAlign': 'center'})]),
-            html.Div([html.H4("Contratacón", style={'textAlign': 'center'}), html.H2(id='indicator-award', style={'textAlign': 'center'})]),
-            html.Div([html.H4("Implementación", style={'textAlign': 'center'}), html.H2(id='indicator-impletrans', style={'textAlign': 'center'})]),
-            ]
+            html.Div([html.H4("Flag Planning", style={'textAlign': 'center'}), html.H2(id='indicator-planning', style={'textAlign': 'center'})]),
+            html.Div([html.H4("Flag Date Tender", style={'textAlign': 'center'}), html.H2(id='indicator-datetender', style={'textAlign': 'center'})]),
+            html.Div([html.H4("Flag Tender", style={'textAlign': 'center'}), html.H2(id='indicator-tender', style={'textAlign': 'center'})]),
+            html.Div([html.H4("Flag Award", style={'textAlign': 'center'}), html.H2(id='indicator-award', style={'textAlign': 'center'})]),
+            html.Div([html.H4("Flag Impletrans", style={'textAlign': 'center'}), html.H2(id='indicator-impletrans', style={'textAlign': 'center'})]),
+            html.Div("1 = Cumple, 0 = No Cumple", style={'textAlign': 'right', 'color': 'white', 'padding': '20px'})
+        ]
     ),
 
     # Gráficos
     html.Div([
-        html.Div([dcc.Graph(id='mapa')], style={'width': '40%', 'display': 'inline-block'}),
+        html.Div([dcc.Graph(id='bar-chart')], style={'width': '30%', 'display': 'inline-block'}),
         html.Div([dcc.Graph(id='pie-chart')], style={'width': '30%', 'display': 'inline-block'}),
-        html.Div([dcc.Graph(id='bar-chart')], style={'width': '30%', 'display': 'inline-block'})
-        ,
+        html.Div([dcc.Graph(id='mapa')], style={'width': '40%', 'display': 'inline-block'}),
     ], style={'display': 'flex', 'justify-content': 'space-between'}),
     # Tabla
     html.Div([dash_table.DataTable(
@@ -154,13 +149,13 @@ def update_dashboard(selected_id, selected_tender_id, selected_state, selected_y
     if selected_year:
         filtered_df = filtered_df[filtered_df['year'] == int(selected_year)]
     if selected_tender_id:
-        filtered_df = filtered_df[filtered_df['Número de licitación'].astype(str) == selected_tender_id]
+        filtered_df = filtered_df[filtered_df['tender.id'].astype(str) == selected_tender_id]
     if selected_state:
         filtered_df = filtered_df[filtered_df['state'] == selected_state]
 
      # Generar opciones para cada dropdown basadas en los datos filtrados
     id_options = [{'label': str(id), 'value': str(id)} for id in filtered_df['id'].dropna().unique()]
-    tender_id_options = [{'label': str(tid), 'value': str(tid)} for tid in filtered_df['Número de licitación'].dropna().unique()]
+    tender_id_options = [{'label': str(tid), 'value': str(tid)} for tid in filtered_df['tender.id'].dropna().unique()]
     state_options = [{'label': state, 'value': state} for state in filtered_df['state'].dropna().unique()]
     year_options = [{'label': year, 'value': year} for year in filtered_df['year'].dropna().unique()]
 
@@ -188,12 +183,13 @@ def update_dashboard(selected_id, selected_tender_id, selected_state, selected_y
 )
 def update_graphs_and_indicators(selected_id, selected_tender_id, selected_state, selected_year):
     filtered_df = df.copy()
+    pass
 
     # Aplicar filtros
     if selected_id:
         filtered_df = filtered_df[filtered_df['id'].astype(str) == selected_id]
     if selected_tender_id:
-        filtered_df = filtered_df[filtered_df['Número de licitación'].astype(str) == selected_tender_id]
+        filtered_df = filtered_df[filtered_df['tender.id'].astype(str) == selected_tender_id]
     if selected_state:
         filtered_df = filtered_df[filtered_df['state'] == selected_state]
     if selected_year:
@@ -293,6 +289,36 @@ def update_graphs_and_indicators(selected_id, selected_tender_id, selected_state
 
     return bar_chart_updated, pie_chart_updated, map_updated, planning_sum, tenderdate_sum, tender_sum, award_sum, impletrans_sum, table_data
 
+# Integrar Dash con Gradio
+def serve_dash():
+    from flask import Flask, Response
+    import threading
+    import time
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+    # Inicia el servidor Dash en segundo plano
+    def run_dash():
+        app.run_server(debug=False, use_reloader=False, port=8050)
+
+    threading.Thread(target=run_dash).start()
+    time.sleep(1)  # Esperar a que el servidor Dash esté listo
+
+    # Generar un iframe que muestra el contenido del servidor Dash
+    iframe = """
+    <iframe 
+        src="http://localhost:8050" 
+        style="width: 100%; height: 800px; border: none;">
+    </iframe>
+    """
+    return Response(iframe, content_type="text/html")
+
+# Crear la interfaz Gradio
+interface = gr.Interface(
+    fn=serve_dash,
+    inputs=[],
+    outputs="html",
+    live=True
+)
+
+if __name__ == "__main__":
+    interface.launch()
+
