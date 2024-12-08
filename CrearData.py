@@ -164,7 +164,7 @@ print(merged_df.head(1))
 #_________________________________________________________________________________________________________
 
 # Especificar la ruta completa para guardar el archivo
-output_file_path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\data.txt'
+output_file_path = r'/PDN_S6/Excel/data.txt'
 
 # Guardar el DataFrame en un archivo .txt con delimitador tabulador
 merged_df.to_csv(output_file_path, sep='\t', index=False)

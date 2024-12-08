@@ -7,7 +7,7 @@ from dash import dash_table
 
 
 # Cargar el DataFrame (asegúrate de tener los datos correctamente cargados en 'df')
-path =r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\df_data.csv'
+path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\Excel\df_data.csv'
 df = pd.read_csv(path)
 #________________________________________________________________________________________________________
 tabla_rename={'tender.id':'Número de licitación',

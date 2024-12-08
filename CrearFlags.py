@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Ruta del archivo de datos
-path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\data.txt'
+path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\Excel\data.txt'
 
 # Cargar el archivo .txt en un DataFrame (suponiendo que el archivo tiene un delimitador tabulador)
 df = pd.read_csv(path, sep='\t')
@@ -108,7 +108,7 @@ grouped['flag.impletrans'] = grouped['porc.impletrans'].apply(lambda x: 0 if x >
 #print(grouped)
 #______________________________________________________________________________________
 # Rutas para guardar los archivos CSV y Excel
-output_df_csv_path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\df_data.csv'
+output_df_csv_path = r'/PDN_S6/Excel/df_data.csv'
 output_grouped_csv_path = r'C:\Users\L01232389\PycharmProjects\PythonProject\PDN_S6\grouped_data.csv'
 
 # Guardar los DataFrames 'df' y 'grouped' en formato CSV
